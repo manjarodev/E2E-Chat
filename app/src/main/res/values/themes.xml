@@ -1,0 +1,175 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Chat" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--    <style name="Theme.Chat" parent="Theme.Material3.Light.NoActionBar">-->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_10</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/faded_black_50</item>
+        <item name="colorOnSecondary">@color/faded_black</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Customize your theme here. -->
+
+<!--        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>-->
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionMenuTextColor">@color/faded_black</item>
+        <item name="actionMenuTextColor">@color/faded_black</item>
+    </style>
+
+
+<!--    <style name="SplashTheme" parent="Theme.Chat">-->
+<!--        &lt;!&ndash;        <item name="android:windowBackground">@drawable/splash_background</item>&ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorPrimary</item>-->
+<!--        <item name="android:statusBarColor">@color/colorPrimary</item>-->
+<!--        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>-->
+<!--    </style>-->
+
+    <style name="SearchViewTheme" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/search_view_text_size</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant_80</item>
+        <item name="android:textColorHint">@color/gray_variant_80</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="tint">@color/gray_variant_80</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/search_view_text_size</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant_80</item>
+        <item name="android:textColorHint">@color/gray_variant_80</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:panelBackground">@drawable/popup_menu_background</item>
+    </style>
+
+    <style name="ToolbarThemeHomeFragment" parent="@style/Theme.Chat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/ToolbarOverflowStyle</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:panelBackground">@drawable/popup_menu_background</item>
+        <item name="android:titleTextAppearance">@style/ToolbarTitleStyle</item>
+        <item name="android:subtitleTextAppearance">@style/ToolbarSubtitleStyle</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="ToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="ToolbarSubtitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="PopupMenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+
+    <style name="PopupMenuStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:colorBackground">@color/deep_black</item>
+    </style>
+
+    <style name="CustomPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/deep_black</item>
+    </style>
+
+
+
+    <style name="PopupMenuStyleToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:popupBackground">@drawable/popup_menu_background</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="colorControlNormal">@color/faded_black</item>
+        <item name="actionOverflowButtonStyle">@style/ToolbarOverflowStyle</item>
+    </style>
+
+    <style name="ToolbarThemeFragment" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+    </style>
+
+    <style name="ToolbarThemeViewers" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+
+    </style>
+
+    <!-- Custo dialog -->
+    <style name="CustomTransparentDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>-->
+    </style>
+
+    <style name="CustomCheckbox02" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bg_check_box</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+    </style>
+    <style name="Theme.Chat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Chat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Chat.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/bg_window_fill_color</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textColorSecondary">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+
+    </style>
+
+
+    <style name="ToolbarOverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+
+</resources>

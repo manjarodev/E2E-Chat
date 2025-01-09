@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".activities.PdfViewerActivity">
+
+    <TextView
+        android:id="@+id/tvSubs"
+        style="@style/Chat.Text.Subscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subscription_ended"
+        android:visibility="gone" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/faded_black"
+            android:elevation="1dp"
+            android:theme="@style/ToolbarThemeWhite" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.pdfview.PDFView
+        android:id="@+id/activity_main_pdf_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    <com.github.barteksc.pdfviewer.PDFView-->
+    <!--        android:id="@+id/pdfView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@color/black" />-->
+
+
+</LinearLayout>

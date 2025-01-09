@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.AutoLockSettingActivity">
+
+        <TextView
+            android:id="@+id/tvSubs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subscription_ended"
+            android:visibility="gone"
+            style="@style/Chat.Text.Subscription"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/bg_window_fill_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSubs"
+            app:theme="@style/ToolbarTheme"
+            app:titleTextAppearance="@style/PopupMenuTextAppearance"
+            app:navigationIconTint="@color/white">
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:fontFamily="@font/montserrat_semi_bold"-->
+            <!--                android:letterSpacing="-0.01"-->
+            <!--                android:text="Autolock Settings"-->
+            <!--                android:textColor="@color/faded_black"-->
+            <!--                android:textSize="@dimen/_13ssp" />-->
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragment_container_settings"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:navGraph="@navigation/auto_lock_nav" />
+            <!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content">-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_confidential_message"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginStart="@dimen/_15sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/confidential_messages"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_confidential_message"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginEnd="@dimen/_15sdp"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_confidential_message_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="parent"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_confidential_message"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_confidential_message_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_5sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:autoSizeTextType="uniform"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:letterSpacing="-0.04"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/confidential_messages_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_confidential_message"-->
+            <!--                    tools:ignore="SmallSp"-->
+            <!--                    tools:targetApi="o" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_1"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_confidential_message_note" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_disappearing_message"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/disappearing_messages"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_1" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/options_message"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginEnd="@dimen/_15sdp"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="1"-->
+            <!--                    android:text="@string/off"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_disappearing_message_note"-->
+            <!--                    app:layout_constraintEnd_toEndOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_disappearing_message" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_disappearing_message_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/disappearing_messages_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/options_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_disappearing_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_disappearing_message"-->
+            <!--                    tools:ignore="SmallSp" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_2"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_disappearing_message_note" />-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_message_preview"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/hide_sensitive_message_preview"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_2" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_hide_sensitive_message"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_hide_sensitive_message_preview_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_hide_sensitive_message_preview"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_message_preview_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/hide_sensitive_message_preview_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/options_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_message_preview"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_hide_sensitive_message_preview"-->
+            <!--                    tools:ignore="SmallSp" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_3"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_hide_sensitive_message_preview_note" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_media_share_restrict"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/media_sharing"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_3" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_media_share_restrict"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_media_share_restrict_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_media_share_restrict"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_media_share_restrict_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/media_sharing_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/options_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_message_preview"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_media_share_restrict"-->
+            <!--                    tools:ignore="SmallSp" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_12"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_media_share_restrict_note" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_block_unknown_contacts"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/block_unknown_contacts"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_12" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_block_unknown_contacts"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_block_unknown_contacts_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_block_unknown_contacts"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_block_unknown_contacts_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/block_unknown_contacts_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/options_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_message_preview"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_block_unknown_contacts"-->
+            <!--                    tools:ignore="SmallSp" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_4"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_block_unknown_contacts_note" />-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:id="@+id/layout_blocked_contacts"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:gravity="start"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_4">-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/tv_blocked_contacts"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                        android:fontFamily="@font/montserrat_medium"-->
+            <!--                        android:text="@string/blocked_contacts"-->
+            <!--                        android:textColor="@color/dark_black"-->
+            <!--                        android:textSize="@dimen/_12ssp" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/tv_blocked_contacts_count"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                        android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                        android:alpha="0.5"-->
+            <!--                        android:ellipsize="end"-->
+            <!--                        android:fontFamily="@font/montserrat_regular"-->
+            <!--                        android:maxLines="2"-->
+            <!--                        android:text="@string/_0"-->
+            <!--                        android:textColor="@color/faded_black"-->
+            <!--                        android:textSize="@dimen/_10ssp"-->
+            <!--                        tools:ignore="SmallSp" />-->
+            <!--                </LinearLayout>-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_11"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/layout_blocked_contacts" />-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_private_clipboard"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/private_clipboard"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_11" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_private_clipboard"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_private_clipboard_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_private_clipboard"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_private_clipboard_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/private_clipboard_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/options_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_private_clipboard"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_private_clipboard"-->
+            <!--                    tools:ignore="SmallSp" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_chat_title"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_semi_bold"-->
+            <!--                    android:letterSpacing="-0.01"-->
+            <!--                    android:text="@string/hide_sensitive_messages"-->
+            <!--                    android:textColor="@color/blue"-->
+            <!--                    android:textSize="@dimen/_13ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_private_clipboard_note" />-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_chat"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/hide_sensitive_messages_chat"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_chat_title"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_hide_sensitive_chat_title" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_hide_sensitive_chat"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_hide_sensitive_chat_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_hide_sensitive_chat"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_chat_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_5sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:autoSizeTextType="uniform"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:letterSpacing="-0.04"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/hide_sensitive_chat_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/check_hide_sensitive_chat"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_chat"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_hide_sensitive_chat"-->
+            <!--                    tools:ignore="SmallSp"-->
+            <!--                    tools:targetApi="o" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_7"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_16sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_hide_sensitive_chat_note" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_chat_direct"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/hide_sensitive_messages_chat_direct"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_chat_title"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_7" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_hide_sensitive_chat_direct"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_hide_sensitive_chat_direct"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_hide_sensitive_chat_direct"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_8"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_6sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/check_hide_sensitive_chat_direct" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_chat_group"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/hide_sensitive_messages_chat_group"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_chat_title"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_8" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_hide_sensitive_chat_group"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_hide_sensitive_chat_group"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_hide_sensitive_chat_group"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_9"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_6sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/check_hide_sensitive_chat_group" />-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_hide_sensitive_chat_anonymous_group"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/hide_sensitive_messages_chat_anonymous_group"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_chat_title"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_9" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_hide_sensitive_chat_anonymous_group"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_hide_sensitive_chat_anonymous_group"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_hide_sensitive_chat_anonymous_group"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <View-->
+            <!--                    android:id="@+id/separator_10"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="1dp"-->
+            <!--                    android:layout_marginHorizontal="@dimen/_14sdp"-->
+            <!--                    android:layout_marginTop="@dimen/_6sdp"-->
+            <!--                    android:alpha="0.04"-->
+            <!--                    android:background="@color/dark_black"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/check_hide_sensitive_chat_anonymous_group" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_media_settings"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_semi_bold"-->
+            <!--                    android:letterSpacing="-0.01"-->
+            <!--                    android:text="@string/media_settings"-->
+            <!--                    android:textColor="@color/blue"-->
+            <!--                    android:textSize="@dimen/_13ssp"-->
+            <!--                    android:visibility="visible"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/separator_10" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_auto_download"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_14sdp"-->
+            <!--                    android:fontFamily="@font/montserrat_medium"-->
+            <!--                    android:text="@string/auto_download"-->
+            <!--                    android:textColor="@color/dark_black"-->
+            <!--                    android:textSize="@dimen/_12ssp"-->
+            <!--                    android:visibility="visible"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_confidential_message"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_media_settings" />-->
+
+            <!--                <androidx.appcompat.widget.SwitchCompat-->
+            <!--                    android:id="@+id/check_auto_save"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:alpha="0.7"-->
+            <!--                    android:thumb="@drawable/thumb_selector"-->
+            <!--                    android:visibility="visible"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="@id/tv_auto_save_note"-->
+            <!--                    app:layout_constraintRight_toRightOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/check_confidential_message"-->
+            <!--                    app:layout_constraintTop_toTopOf="@id/tv_auto_download"-->
+            <!--                    app:track="@drawable/track_selector" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tv_auto_save_note"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+            <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:ellipsize="end"-->
+            <!--                    android:fontFamily="@font/montserrat_regular"-->
+            <!--                    android:maxLines="2"-->
+            <!--                    android:text="@string/auto_download_note"-->
+            <!--                    android:textColor="@color/faded_black"-->
+            <!--                    android:textSize="@dimen/_10ssp"-->
+            <!--                    android:visibility="visible"-->
+            <!--                    app:layout_constraintEnd_toStartOf="@id/options_message"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/tv_hide_sensitive_message_preview"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_auto_download"-->
+            <!--                    tools:ignore="SmallSp" />-->
+
+            <!--                <Space-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="@dimen/_25sdp"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/tv_auto_save_note" />-->
+
+
+            <!--                &lt;!&ndash;                <View&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/separator_2"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="1dp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_marginTop="@dimen/_16sdp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:alpha="0.04"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:background="@color/dark_black"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/tv_adds_in_group" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <TextView&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/tv_nickname_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_marginTop="@dimen/_14sdp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:fontFamily="@font/montserrat_medium"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:text="@string/nickname_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textColor="@color/dark_black"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textSize="@dimen/_11ssp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintStart_toStartOf="@id/tv_allow_all_notification"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/separator_2" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <TextView&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/tv_sets_nickname"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_marginTop="@dimen/_4sdp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:alpha="0.5"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:fontFamily="@font/montserrat_regular"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:text="@string/sets_nickname"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textColor="@color/faded_black"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textSize="@dimen/_8ssp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintStart_toStartOf="@id/tv_allow_all_notification"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/tv_nickname_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    tools:ignore="SmallSp" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <androidx.appcompat.widget.SwitchCompat&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/check_nickname"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:thumb="@drawable/thumb_selector"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintBottom_toBottomOf="@id/tv_sets_nickname"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintEnd_toEndOf="@id/check_allow_notification"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toTopOf="@id/tv_nickname_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:track="@drawable/track_selector" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <View&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/separator_3"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="1dp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_marginTop="@dimen/_16sdp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:alpha="0.04"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:background="@color/dark_black"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/tv_sets_nickname" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <TextView&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/tv_subscription_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_marginTop="@dimen/_14sdp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:fontFamily="@font/montserrat_medium"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:text="@string/subscription_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textColor="@color/dark_black"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textSize="@dimen/_11ssp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintStart_toStartOf="@id/tv_allow_all_notification"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/separator_3" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <TextView&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/tv_subscription_near_end"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_marginTop="@dimen/_4sdp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:alpha="0.5"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:fontFamily="@font/montserrat_regular"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:text="@string/subscription_near_end"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textColor="@color/faded_black"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:textSize="@dimen/_8ssp"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintStart_toStartOf="@id/tv_allow_all_notification"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/tv_subscription_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    tools:ignore="SmallSp" />&ndash;&gt;-->
+
+            <!--                &lt;!&ndash;                <androidx.appcompat.widget.SwitchCompat&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:id="@+id/check_subscription"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    android:thumb="@drawable/thumb_selector"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintBottom_toBottomOf="@id/tv_subscription_near_end"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintEnd_toEndOf="@id/check_allow_notification"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:layout_constraintTop_toTopOf="@id/tv_subscription_alert"&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    app:track="@drawable/track_selector" />&ndash;&gt;-->
+            <!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

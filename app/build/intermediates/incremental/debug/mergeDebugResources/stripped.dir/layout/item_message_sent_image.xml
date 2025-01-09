@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_3sdp">
+
+    <RelativeLayout
+        android:id="@+id/sendingImageMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/outgoing_image_layout_bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_59sdp"
+            android:background="@drawable/bg_send_message">
+
+            <LinearLayout
+                android:id="@+id/layout_forwarded_sent_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/sentImage"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_forwarded"
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:alpha="0.6"
+                    android:src="@drawable/ic_reply" />
+
+                <TextView
+                    android:id="@+id/tv_forwarded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:alpha="0.6"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:text="@string/forwarded"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9ssp"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_forwarded"
+                    app:layout_constraintStart_toEndOf="@id/iv_forwarded"
+                    app:layout_constraintTop_toTopOf="@id/iv_forwarded"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/time_and_tick_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sentImage"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="bottom|right"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:elevation="@dimen/_3sdp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="@id/sentImage"
+                app:layout_constraintEnd_toEndOf="@id/sentImage"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    android:id="@+id/textview_time_sent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:lineSpacingExtra="@dimen/_4ssp"
+                    android:text="@string/time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9ssp"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/text_sendTick"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/ic_tick"
+                    android:visibility="visible" />
+
+                <ImageView
+
+                    android:id="@+id/image_disappear_sent"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/ic_disappear_msg"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sentImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent_color"
+                android:elevation="0dp"
+                app:cardElevation="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout_forwarded_sent_image">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_avatar"
+                    app:layout_constraintBottom_toTopOf="@id/time_and_tick_layout"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/roundedCornersImageView" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/messageText0_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="left"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="@dimen/_1ssp"
+                android:paddingTop="8dp"
+                android:text="@string/confidential_message"
+                android:textColor="@color/white"
+                android:textColorLink="@color/faded_black"
+                android:textSize="@dimen/_12ssp"
+                android:visibility="gone"
+                app:drawableStartCompat="@drawable/ic_confidentiality_sent"
+                app:emojiSize="@dimen/_22sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_forwarded_sent_image" />
+
+            <LinearLayout
+                android:id="@+id/text_time_and_tick_layout_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sentImage"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_3sdp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/messageText0_con">
+
+                <TextView
+                    android:id="@+id/editedText_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:singleLine="true"
+                    android:text="Edited "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_8ssp"
+                    android:visibility="gone"
+                    tools:ignore="SpUsage" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_textview_time_con"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:alpha="0.4"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/time"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp"
+                        tools:ignore="SpUsage" />
+
+                    <ImageView
+
+                        android:id="@+id/text_text_sendTick_con"
+                        android:layout_width="@dimen/_14sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:layout_gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/ic_tick"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_minus59sdp"
+            android:layout_toStartOf="@id/outgoing_image_layout_bubble"
+            android:padding="@dimen/_20sdp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_21sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:src="@drawable/ic_reply"
+                app:tint="@color/faded_black" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

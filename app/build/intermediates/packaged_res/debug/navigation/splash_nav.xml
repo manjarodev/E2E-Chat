@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_nav.xml"
+    app:startDestination="@id/ChatSplashFragment">
+
+    <fragment
+        android:id="@+id/ChatSplashFragment"
+        android:name="com.devbeans.io.chat.fragments.SplashFragment"
+        tools:layout="@layout/splash_fragment">
+
+
+        <action
+            android:id="@+id/action_ChatSplashFragment_to_networkFragment"
+            app:destination="@id/networkFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+        <action
+            android:id="@+id/action_ChatSplashFragment_to_adjustTimeFragment"
+            app:destination="@id/adjustTimeFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/networkFragment"
+        android:name="com.devbeans.io.chat.fragments.NetworkFragment"
+        tools:layout="@layout/network_fragment" />
+
+    <fragment
+        android:id="@+id/adjustTimeFragment"
+        android:name="com.devbeans.io.chat.fragments.AdjustTimeFragment"
+        tools:layout="@layout/adjust_time_fragment">
+
+    </fragment>
+
+
+</navigation>

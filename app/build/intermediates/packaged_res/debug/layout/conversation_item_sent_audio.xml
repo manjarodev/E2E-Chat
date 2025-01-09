@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.devbeans.io.chat.utils.components.AudioView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:viewBindingIgnore="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/audio_view"
+    android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    app:backgroundTintColor="@color/blue_30"
+    app:foregroundTintColor="@color/white"
+    app:progressAndPlayTint="@color/transparent_white_20"
+    app:waveformPlayedBarsColor="@color/core_white"
+    app:waveformUnplayedBarsColor="@color/transparent_white_40"
+    tools:visibility="visible" />

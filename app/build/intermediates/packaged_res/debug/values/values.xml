@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="CustomExpireTimerSelectorView__unit_labels">
+        <item>@string/CustomExpireTimerSelectorView__seconds</item>
+        <item>@string/CustomExpireTimerSelectorView__minutes</item>
+        <item>@string/CustomExpireTimerSelectorView__hours</item>
+        <item>@string/CustomExpireTimerSelectorView__days</item>
+        <item>@string/CustomExpireTimerSelectorView__weeks</item>
+    </string-array>
+    <string-array name="PlaybackSpeedToggleTextView__speed_labels">
+        <item>@string/PlaybackSpeedToggleTextView__1x</item>
+        <item>@string/PlaybackSpeedToggleTextView__1p5x</item>
+        <item>@string/PlaybackSpeedToggleTextView__2x</item>
+        <item>@string/PlaybackSpeedToggleTextView__p5x</item>
+    </string-array>
+    <integer-array name="PlaybackSpeedToggleTextView__speeds">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>50</item>
+    </integer-array>
+    <integer-array name="chat_chat_colors">
+        <item>@color/transparent</item>
+        <item>@color/conversation_crimson</item>
+        <item>@color/conversation_violet</item>
+        <item>@color/conversation_blue</item>
+        <item>@color/conversation_teal</item>
+        <item>@color/conversation_steel</item>
+        <item>@color/conversation_vermillion</item>
+        <item>@color/conversation_plumb</item>
+        <item>@color/conversation_taupe</item>
+    </integer-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev" ns1:ignore="Typos">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod" ns1:ignore="Typos">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="emoji_size">
+        <item>Small</item>
+        <item>Large</item>
+        <item>Very Large</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>Small</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="keep_chat">
+        <item>1 day</item>
+        <item>30 days</item>
+        <item>60 days</item>
+        <item>90 days</item>
+    </string-array>
+    <string-array name="view_types_dialog">
+        <item name="image">Image (default)</item>
+        <item name="voice">Voice message (custom)</item>
+        <item name="video">Video</item>
+        <item name="file">File</item>
+    </string-array>
+    <attr format="reference" name="emoji_category_activity"/>
+    <attr format="reference" name="emoji_category_emoticons"/>
+    <attr format="reference" name="emoji_category_flags"/>
+    <attr format="reference" name="emoji_category_foods"/>
+    <attr format="reference" name="emoji_category_nature"/>
+    <attr format="reference" name="emoji_category_objects"/>
+    <attr format="reference" name="emoji_category_people"/>
+    <attr format="reference" name="emoji_category_places"/>
+    <attr format="reference" name="emoji_category_recent"/>
+    <attr format="reference" name="emoji_category_symbols"/>
+    <attr format="string" name="theme_type"/>
+    <color name="bg_message_sent">#59FFC8</color>
+    <color name="bg_window_fill_color">@color/black_variation</color>
+    <color name="black">#FF000000</color>
+    <color name="black_variation">#191919</color>
+    <color name="black_variation_50">#80191919</color>
+    <color name="blue">#00F8A5</color>
+    <color name="blue_10">#1A00F8A5</color>
+    <color name="blue_18">#2B00F8A5</color>
+    <color name="blue_20">#3300F8A5</color>
+    <color name="blue_30">#4D00F8A5</color>
+    <color name="chat_button_secondary">@color/core_grey_05</color>
+    <color name="chat_button_secondary_ripple">@color/core_grey_02</color>
+    <color name="chat_button_secondary_stroke">@color/core_grey_15</color>
+    <color name="chat_button_secondary_text">@color/core_ultramarine</color>
+    <color name="chat_button_secondary_text_disabled">@color/core_grey_25</color>
+    <color name="chat_colorOnSurface">#1B1B1D</color>
+    <color name="chat_gray">#EBEDEF</color>
+    <color name="chat_input_background">@color/chat_gray</color>
+    <color name="colorOnPrimary">@color/blue</color>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="conversation_blue">#336ba3</color>
+    <color name="conversation_blue_shade">#285480</color>
+    <color name="conversation_blue_tint">#adc8e1</color>
+    <color name="conversation_burlap">#746c53</color>
+    <color name="conversation_burlap_shade">#58513c</color>
+    <color name="conversation_burlap_tint">#c4b997</color>
+    <color name="conversation_crimson">#cc163d</color>
+    <color name="conversation_crimson_shade">#8a0f29</color>
+    <color name="conversation_crimson_tint">#eda6ae</color>
+    <color name="conversation_forest">#3b7845</color>
+    <color name="conversation_forest_shade">#2b5934</color>
+    <color name="conversation_forest_tint">#8fcc9a</color>
+    <color name="conversation_group">@color/core_ultramarine</color>
+    <color name="conversation_group_shade">#1851b4</color>
+    <color name="conversation_group_tint">#b0c8f9</color>
+    <color name="conversation_indigo">#5951c8</color>
+    <color name="conversation_indigo_shade">#4840a0</color>
+    <color name="conversation_indigo_tint">#c2c1e7</color>
+    <color name="conversation_item_selected_system_ui">#4d4d4d</color>
+    <color name="conversation_plumb">#a23474</color>
+    <color name="conversation_plumb_shade">#881b5b</color>
+    <color name="conversation_plumb_tint">#dcb2ca</color>
+    <color name="conversation_steel">#6b6b78</color>
+    <color name="conversation_steel_shade">#5a5a63</color>
+    <color name="conversation_steel_tint">#bebec6</color>
+    <color name="conversation_taupe">#895d66</color>
+    <color name="conversation_taupe_shade">#6a4e54</color>
+    <color name="conversation_taupe_tint">#cfb5bb</color>
+    <color name="conversation_teal">#067589</color>
+    <color name="conversation_teal_shade">#055968</color>
+    <color name="conversation_teal_tint">#a5cad5</color>
+    <color name="conversation_ultramarine">@color/core_ultramarine</color>
+    <color name="conversation_ultramarine_shade">#1851b4</color>
+    <color name="conversation_ultramarine_tint">#b0c8f9</color>
+    <color name="conversation_vermillion">#c73800</color>
+    <color name="conversation_vermillion_shade">#872600</color>
+    <color name="conversation_vermillion_tint">#eba78e</color>
+    <color name="conversation_violet">#862caf</color>
+    <color name="conversation_violet_shade">#6b248a</color>
+    <color name="conversation_violet_tint">#cdaddc</color>
+    <color name="conversation_wintergreen">#1c8260</color>
+    <color name="conversation_wintergreen_shade">#36544a</color>
+    <color name="conversation_wintergreen_tint">#9bcfbd</color>
+    <color name="core_black">#000000</color>
+    <color name="core_grey_02">#f6f6f6</color>
+    <color name="core_grey_05">#e9e9e9</color>
+    <color name="core_grey_10">#e2e2e2</color>
+    <color name="core_grey_15">#d4d4d4</color>
+    <color name="core_grey_20">#c6c6c6</color>
+    <color name="core_grey_25">#b9b9b9</color>
+    <color name="core_grey_30">#b3b3b3</color>
+    <color name="core_grey_35">#9e9e9e</color>
+    <color name="core_grey_40">#919191</color>
+    <color name="core_grey_45">#848484</color>
+    <color name="core_grey_50">#777777</color>
+    <color name="core_grey_55">#6a6a6a</color>
+    <color name="core_grey_60">#5e5e5e</color>
+    <color name="core_grey_75">#3b3b3b</color>
+    <color name="core_ultramarine">#2c6bed</color>
+    <color name="core_white">#ffffff</color>
+    <color name="crop_area_renderer_edge_color">#ffffffff</color>
+    <color name="crop_area_renderer_outer_color">#7f000000</color>
+    <color name="crop_circle_guide_color">#66FFFFFF</color>
+    <color name="dark_black">#333333</color>
+    <color name="dark_black_tint">#131313</color>
+    <color name="dark_red">#F44336</color>
+    <color name="dark_red_10">#1AF44336</color>
+    <color name="dark_red_80">#CCF44336</color>
+    <color name="deep_black">#252528</color>
+    <color name="deep_black_50">#80252528</color>
+    <color name="faded_black">#202020</color>
+    <color name="faded_black_05">#0D202020</color>
+    <color name="faded_black_10">#1A202020</color>
+    <color name="faded_black_12">#1F202020</color>
+    <color name="faded_black_20">#33202020</color>
+    <color name="faded_black_30">#4D202020</color>
+    <color name="faded_black_40">#66202020</color>
+    <color name="faded_black_50">#80202020</color>
+    <color name="faded_black_60">#99202020</color>
+    <color name="faded_black_68">#B2202020</color>
+    <color name="faded_black_70">#B3202020</color>
+    <color name="faded_black_80">#CC202020</color>
+    <color name="gradient_center">@color/blue_30</color>
+    <color name="gradient_end">@color/blue_20</color>
+    <color name="gradient_start">@color/blue</color>
+    <color name="gray">#DADADA</color>
+    <color name="gray_22">#38DADADA</color>
+    <color name="gray_30">#4DDADADA</color>
+    <color name="gray_primary">#E1E2E6</color>
+    <color name="gray_variant">#BABBBF</color>
+    <color name="gray_variant_10">#1ABABBBF</color>
+    <color name="gray_variant_20">#33BABBBF</color>
+    <color name="gray_variant_22">#38BABBBF</color>
+    <color name="gray_variant_30">#4DBABBBF</color>
+    <color name="gray_variant_40">#64BABBBF</color>
+    <color name="gray_variant_50">#80BABBBF</color>
+    <color name="gray_variant_80">#CCBABBBF</color>
+    <color name="gray_variant_second">#434346</color>
+    <color name="green">#46AF4A</color>
+    <color name="ic_launcher_background">#231F20</color>
+    <color name="light_blue">#B5D3FF</color>
+    <color name="light_orange">#FF9800</color>
+    <color name="light_orange_15">#26FF9800</color>
+    <color name="old_blue">#005FF7</color>
+    <color name="orange">#F7931A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="reactions_screen_dark_shade_color">@color/transparent_black_70</color>
+    <color name="reactions_screen_light_shade_color">@color/transparent_white_87</color>
+    <color name="settings_message">@color/gray_variant</color>
+    <color name="signal_accent_green">#4CAF50</color>
+    <color name="signal_accent_primary">@color/core_ultramarine</color>
+    <color name="signal_button_primary_ripple">@color/transparent_black_15</color>
+    <color name="signal_icon_tint_primary">@color/core_grey_75</color>
+    <color name="signal_text_toolbar_subtitle">@color/transparent_white_90</color>
+    <color name="signal_text_toolbar_title">@color/core_white</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="top_black">#343437</color>
+    <color name="transparent">@color/transparent_color</color>
+    <color name="transparent_black_15">#26000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_60">#99000000</color>
+    <color name="transparent_black_70">#b3000000</color>
+    <color name="transparent_black_80">#CC000000</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="transparent_white_05">#0Dffffff</color>
+    <color name="transparent_white_08">#14ffffff</color>
+    <color name="transparent_white_10">#18ffffff</color>
+    <color name="transparent_white_15">#26ffffff</color>
+    <color name="transparent_white_20">#33ffffff</color>
+    <color name="transparent_white_25">#40ffffff</color>
+    <color name="transparent_white_30">#4Dffffff</color>
+    <color name="transparent_white_40">#66ffffff</color>
+    <color name="transparent_white_60">#99ffffff</color>
+    <color name="transparent_white_70">#b2ffffff</color>
+    <color name="transparent_white_80">#ccffffff</color>
+    <color name="transparent_white_87">#dfffffff</color>
+    <color name="transparent_white_90">#e6ffffff</color>
+    <color name="transparent_white_95">#f3ffffff</color>
+    <color name="ucrop_color_statusbar">@color/blue</color>
+    <color name="ucrop_color_toolbar">@color/blue</color>
+    <color name="ucrop_color_widget_active">@color/white</color>
+    <color name="ultra_light_bue">#F2F7FC</color>
+    <color name="voice_note_player_view_background">#F2F5F9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_04">#0AFFFFFF</color>
+    <color name="white_10">#26FFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#64FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_70">#B2FFFFFF</color>
+    <dimen name="chat_empty">15sp</dimen>
+    <dimen name="chat_title_name">18sp</dimen>
+    <dimen name="circular_image_size">36dp</dimen>
+    <dimen name="contact_photo_target_size">64dp</dimen>
+    <dimen name="contact_selection_photo_size">50dp</dimen>
+    <dimen name="conversation_item_body_text_size">16sp</dimen>
+    <dimen name="conversation_item_date_text_size">12sp</dimen>
+    <dimen name="conversation_reaction_scrub_deadzone_distance_from_touch_bottom">30dp</dimen>
+    <dimen name="conversation_reaction_scrub_horizontal_margin">16dp</dimen>
+    <dimen name="conversation_reaction_scrub_vertical_translation">25dp</dimen>
+    <dimen name="conversation_reaction_scrubber_height">136dp</dimen>
+    <dimen name="conversation_reaction_touch_deadzone_size">40dp</dimen>
+    <dimen name="crop_area_renderer_edge_size">32dp</dimen>
+    <dimen name="crop_area_renderer_edge_thickness">2dp</dimen>
+    <dimen name="default_custom_keyboard_size">220dp</dimen>
+    <dimen name="disappearing_option">@dimen/_10sdp</dimen>
+    <dimen name="emoji_drawer_item_width">46dp</dimen>
+    <dimen name="emoji_drawer_size">32sp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="keyboard_toolbar_height">44dp</dimen>
+    <dimen name="min_custom_keyboard_size">110dp</dimen>
+    <dimen name="min_custom_keyboard_top_margin_landscape_bubble">56dp</dimen>
+    <dimen name="min_custom_keyboard_top_margin_portrait">170dp</dimen>
+    <dimen name="min_keyboard_size">60dp</dimen>
+    <dimen name="oval_guide_stroke_width">1dp</dimen>
+    <dimen name="progress_dialog_size">120dp</dimen>
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_item_radius">5dp</dimen>
+    <dimen name="pv_pin_view_item_size">48dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <dimen name="reaction_scrubber_anim_end_translation_y">0dp</dimen>
+    <dimen name="reaction_scrubber_anim_start_translation_y">25dp</dimen>
+    <dimen name="reaction_scrubber_width">320dp</dimen>
+    <dimen name="recording_voice_lock_target">-150dp</dimen>
+    <dimen name="search_view_text_size">@dimen/_12ssp</dimen>
+    <dimen name="toolbar_title_size">22sp</dimen>
+    <dimen name="tooltip_popup_margin">8dp</dimen>
+    <dimen name="transport_selection_popup_width">200sp</dimen>
+    <dimen name="transport_selection_popup_xoff">2dp</dimen>
+    <dimen name="transport_selection_popup_yoff">2dp</dimen>
+    <dimen name="view_once_padding">5dp</dimen>
+    <dimen name="wave_form_bar_width">2dp</dimen>
+    <integer name="reaction_scrubber_emoji_reveal_duration_start_delay_factor">10</integer>
+    <integer name="reaction_scrubber_hide_duration">150</integer>
+    <integer name="reaction_scrubber_reveal_duration">200</integer>
+    <integer name="reaction_scrubber_reveal_offset">100</integer>
+    <integer name="segmentedprogressbar_default_segments_count">4</integer>
+    <integer name="segmentedprogressbar_default_time_per_segment_ms">5000</integer>
+    <integer name="text_entry_exit_duration">150</integer>
+    <plurals name="MediaSendActivity_cant_share_more_than_n_items">
+        <item quantity="one">You can\'t share more than %d item.</item>
+        <item quantity="other">You can\'t share more than %d items.</item>
+    </plurals>
+    <string name="Adjust_time">Adjust Time</string>
+    <string name="AudioView_duration">%1$d:%2$02d</string>
+    <string name="CameraFragment__failed_to_open_camera">Failed to open camera</string>
+    <string name="CameraXFragment_capture_description">Capture</string>
+    <string name="CameraXFragment_change_camera_description">Change camera</string>
+    <string name="CameraXFragment_open_gallery_description">Open gallery</string>
+    <string name="CameraXFragment_tap_for_photo_hold_for_video">Tap for photo, hold for video</string>
+    <string name="ConversationActivity_chat_needs_recording_permissions_to_capture_video">Chat needs microphone permissions to record videos.</string>
+    <string name="ConversationActivity_chat_needs_the_recording_permissions_to_capture_video">Chat needs microphone permissions to record videos, but they have been denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
+    <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Enable the microphone permission to capture videos with sound.</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Chat needs Camera permissions to take photos or video</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Chat needs the Camera permission to take photos or video, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Chat needs the Microphone and Camera permissions in order to call %s, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Chat requires the Microphone permission in order to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_chat_access_to_the_camera">To capture photos and video, allow Chat access to the camera.</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_chat_access_to_your_microphone">To send audio message, allow Chat access to your microphone.</string>
+    <string name="ConversationActivity_unable_to_record_audio">Unable to record</string>
+    <string name="CustomExpireTimerSelectorView__days">days</string>
+    <string name="CustomExpireTimerSelectorView__hours">hours</string>
+    <string name="CustomExpireTimerSelectorView__minutes">minutes</string>
+    <string name="CustomExpireTimerSelectorView__seconds">seconds</string>
+    <string name="CustomExpireTimerSelectorView__weeks">weeks</string>
+    <string name="ExpireTimerSettingsFragment__custom_time">Custom</string>
+    <string name="ExpireTimerSettingsFragment__set">Set</string>
+    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tap and hold to record a voice message, release to send</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Chat needs the Storage permission in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
+    <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
+    <string name="MediaReviewFragment__add_a_message">Add a message</string>
+    <string name="MediaReviewFragment__view_once_message">View Once</string>
+    <string name="MediaReviewImagePageFragment__discard">Discard</string>
+    <string name="MediaReviewImagePageFragment__discard_changes">Discard changes?</string>
+    <string name="MediaReviewImagePageFragment__youll_lose_any_changes">You\'ll lose any changes you\'ve made to this photo.</string>
+    <string name="MediaSelectionActivity__camera">Camera</string>
+    <string name="MediaSelectionActivity__text">Text</string>
+    <string name="MediaSendActivity_add_a_caption">Add a caption…</string>
+    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">An item was removed because it exceeded the size limit</string>
+    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit_or_had_an_unknown_type">An item was removed because it exceeded the size limit or had an unknown type</string>
+    <string name="MediaSendActivity_an_item_was_removed_because_it_had_an_unknown_type">An item was removed because it had an unknown type</string>
+    <string name="MediaSendActivity_camera_unavailable">Camera unavailable.</string>
+    <string name="MediaSendActivity_message">Message</string>
+    <string name="MediaSendActivity_message_to_s">Message to %s</string>
+    <string name="MediaSendActivity_select_recipients">Select recipients</string>
+    <string name="MediaSendActivity_select_recipients_description">Select recipients</string>
+    <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal needs access to your contacts in order to display them.</string>
+    <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal needs Contacts permission in order to show your contacts, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Contacts\".</string>
+    <string name="MediaSendActivity_tap_here_to_make_this_message_disappear_after_it_is_viewed">Tap here to make this message disappear after it is viewed.</string>
+    <string name="Permissions_continue">Continue</string>
+    <string name="Permissions_not_now">Not now</string>
+    <string name="Permissions_permission_required">Permission required</string>
+    <string name="PlaybackSpeedToggleTextView__1p5x">1.5x</string>
+    <string name="PlaybackSpeedToggleTextView__1x">1x</string>
+    <string name="PlaybackSpeedToggleTextView__2x">2x</string>
+    <string name="PlaybackSpeedToggleTextView__p5x">.5x</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__activities">Activities</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__emoticons">Emoticons</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__flags">Flags</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__food">Food</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__nature">Nature</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__no_results_found">No results found</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__objects">Objects</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__places">Places</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">Recently Used</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__smileys_and_people">Smileys &amp; People</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__symbols">Symbols</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">This Message</string>
+    <string name="StorageUtil__s_s">%1$s/%2$s</string>
+    <string name="ThumbnailView_Play_video_description">Play Video</string>
+    <string name="VerifyIdentityActivity_chat_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Chat needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Unable to scan QR code without Camera permission</string>
+    <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">You must first exchange messages in order to view %1$s\'s safety number.</string>
+    <string name="ViewOnceMessageActivity_video_duration" translatable="false">%1$02d:%2$02d</string>
+    <string name="VoiceNotePlayerView__change_voice_message_speed">Change voice message speed</string>
+    <string name="VoiceNotePlayerView__dot_s">· %1$s</string>
+    <string name="VoiceNotePlayerView__navigate_to_voice_message">Navigate to voice message</string>
+    <string name="VoiceNotePlayerView__pause_voice_message">Pause voice message</string>
+    <string name="VoiceNotePlayerView__play_voice_message">Play voice message</string>
+    <string name="VoiceNotePlayerView__stop_voice_message">Stop voice message</string>
+    <string name="_0">0</string>
+    <string name="_0_percentage">0%</string>
+    <string name="_1">(1)</string>
+    <string name="_10_days">10 days</string>
+    <string name="_10_minutes">10 minutes</string>
+    <string name="_10_seconds">10 seconds</string>
+    <string name="_12_hours">12 hours</string>
+    <string name="_15_minutes">15 minutes</string>
+    <string name="_15_seconds">15 seconds</string>
+    <string name="_1_agreement">1.</string>
+    <string name="_1_day">1 day</string>
+    <string name="_1_hour">1 hour</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="_1_week">1 week</string>
+    <string name="_2_agreement">2.</string>
+    <string name="_2_hours">2 hours</string>
+    <string name="_30_day">30 days</string>
+    <string name="_30_minutes">30 minutes</string>
+    <string name="_30_seconds">30 seconds</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_5_days">5 days</string>
+    <string name="_5_minutes">5 minutes</string>
+    <string name="_60_day">60 days</string>
+    <string name="_8_hours">8 hours</string>
+    <string name="_90_day">90 days</string>
+    <string name="_burn_on_read">Burn on Read</string>
+    <string name="add_contact">Add contact</string>
+    <string name="add_contact_descp">Please enter the User ID of the contact you \nwould like to add or scan QR code</string>
+    <string name="add_existing">Add an existing contact</string>
+    <string name="add_group_description">Add group description</string>
+    <string name="add_members">Add members</string>
+    <string name="add_new_contact">Add new Contact</string>
+    <string name="add_to_contacts">Add to contacts</string>
+    <string name="added_by_qr">Added by QR</string>
+    <string name="address">Server Address:</string>
+    <string name="adds_in_new_group">Somone adds you in new group</string>
+    <string name="agreement_list_one">This will delete your app &amp; data\npermanently.</string>
+    <string name="agreement_list_two">The deleted data can not be restored.</string>
+    <string name="ak">AK</string>
+    <string name="allow_all_notifications">Allow all notifications</string>
+    <string name="allowed">Allow</string>
+    <string name="app_deleted">App deleted</string>
+    <string name="app_is_wiping_note">Please wait while your app is being deleted.</string>
+    <string name="app_language">App Language</string>
+    <string name="app_language_note">English</string>
+    <string name="app_name">Chat</string>
+    <string name="appearance">Appearance</string>
+    <string name="archive_chats_empty">It seems like you don\'t have any archived chat yet</string>
+    <string name="archive_menu">Archive %s</string>
+    <string name="archived_chats">Archived chats</string>
+    <string name="attempts_left">" attempts left.."</string>
+    <string name="audio">Audio</string>
+    <string name="auto_download">Auto Download</string>
+    <string name="auto_download_note">Allow files to be downloaded automatically in chat app</string>
+    <string name="auto_save_note">Allow files to be saved automatically in vault app</string>
+    <string name="auto_save_vault">Auto save files to vault</string>
+    <string name="auto_save_vault_note">Allow files to be saved automatically</string>
+    <string name="autolock_settings">Autolock settings</string>
+    <string name="autolock_settings_message">Secure passcode, autolock settings</string>
+    <string name="autolock_timer">Autolock Timer</string>
+    <string name="background_color">Chat color</string>
+    <string name="block_alert">This user wont be able to send you the messages. Are you sure you want to block?</string>
+    <string name="block_alert_dialog">%s ?</string>
+    <string name="block_unknown_contacts">Block unknown contacts</string>
+    <string name="block_unknown_contacts_note">Restrict unknown contacts to reach you</string>
+    <string name="blocked_contacts">Blocked contacts</string>
+    <string name="blocked_user">Block user</string>
+    <string name="blocked_user_message">You have blocked %s</string>
+    <string name="camera">Camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_send">Group doesn’t exists</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="chat">Chat</string>
+    <string name="chat_id">CHAT ID</string>
+    <string name="chat_id_all_caps">Chat ID</string>
+    <string name="chat_message">Theme, wallpaper, chat history, font and emoji sizes</string>
+    <string name="chat_name">Chat Name</string>
+    <string name="chat_s_wiping_note">Please wait while your chat(s) are being deleted.</string>
+    <string name="chat_settings">Chat settings</string>
+    <string name="chats">Chats</string>
+    <string name="chats_deleted">Chat(s) Deleted</string>
+    <string name="chats_empty">It seems like you don\'t have any chat yet</string>
+    <string name="choose_from_device">Choose from device</string>
+    <string name="choose_your_unique_pin">Choose your unique pin</string>
+    <string name="clear_alert">You wont have history of this chat. Are you sure you want to clear?</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="clear_chat_notification">This feature will allow you to clear chat from certain time frame</string>
+    <string name="clear_chat_notification_dialog">Are you sure you want to clear all the chat history?</string>
+    <string name="clear_history">Clear history</string>
+    <string name="close">Close</string>
+    <string name="color_and_wallpaper">Color and Wallpaper</string>
+    <string name="color_and_wallpaper_note">Set chat background and wallpaper</string>
+    <string name="confidential_message">Tap to reveal</string>
+    <string name="confidential_messages">Tap to Reveal Messages</string>
+    <string name="confidential_messages_note">This will allow all sent messages to be hidden.Receiver needs to tap to reveal the messages.</string>
+    <string name="confirm_new_pin">Confirm new pin</string>
+    <string name="confirm_your_pin">Confirm your pin</string>
+    <string name="confirm_your_pin_to_proceed">Confirm your pin to proceed</string>
+    <string name="connect">Connect</string>
+    <string name="connectException">Unable to connect host</string>
+    <string name="connected">ToyVPN is connected!</string>
+    <string name="connecting">Connecting</string>
+    <string name="connection_close_confirm">Would you like to cancel the current VPN Connection?</string>
+    <string name="contacts">Contacts</string>
+    <string name="contacts_exported">Contacts exported successfully</string>
+    <string name="contacts_imported">Contacts imported successfully</string>
+    <string name="control_for_audio">Control For Audio</string>
+    <string name="conversation_clear">Clear chat of %s ?</string>
+    <string name="conversation_input_panel__cancel">Cancel</string>
+    <string name="conversation_input_panel__slide_to_cancel">Slide to cancel</string>
+    <string name="conversation_selection__menu_copy">Copy</string>
+    <string name="conversation_selection__menu_delete">Delete</string>
+    <string name="conversation_selection__menu_edit">Edit</string>
+    <string name="conversation_selection__menu_forward">Forward</string>
+    <string name="conversation_selection__menu_message_details">Info</string>
+    <string name="conversation_selection__menu_multi_select">Select</string>
+    <string name="conversation_selection__menu_reply">Reply</string>
+    <string name="conversation_selection__menu_resend_message">Resend</string>
+    <string name="conversation_selection__menu_save">Save to vault</string>
+    <string name="conversation_selection__menu_share">Share externally</string>
+    <string name="conversation_settings">Conversation Settings</string>
+    <string name="count">0</string>
+    <string name="create_group">Create group</string>
+    <string name="create_new_group">Create new group</string>
+    <string name="create_new_pin">Create a new pin</string>
+    <string name="created_on_01_01_2002">Created on 01/01/2002</string>
+    <string name="created_on_group">Created on %s</string>
+    <string name="dash">-</string>
+    <string name="date_import">2022–02–02 04:00</string>
+    <string name="delete">Delete</string>
+    <string name="delete_alert">This user will no longer available in your contacts. Are you sure you want to delete?</string>
+    <string name="delete_alert_dialog">Delete %s ?</string>
+    <string name="delete_app">Delete App</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="delete_contact">Delete contact %s ?</string>
+    <string name="delete_file_exported">Delete %s</string>
+    <string name="delete_file_exported_prompt">Are you sure you want to delete this file?</string>
+    <string name="delete_for_me">delete for me</string>
+    <string name="delete_group">Delete group</string>
+    <string name="delete_group_alert">This group will no longer exists in your chats</string>
+    <string name="delete_group_chat_details">Delete group</string>
+    <string name="delete_message">Delete message?</string>
+    <string name="delete_messages_note">These messages will no longer available in your media</string>
+    <string name="deleted">deleted!</string>
+    <string name="destroy">Destroy</string>
+    <string name="destroy_group">Destroy group</string>
+    <string name="destroy_group_notification_dialog">You will no longer be able to send and receive messages in this group</string>
+    <string name="disabled">disabled</string>
+    <string name="disallowed">Disallow</string>
+    <string name="disappearing_messages">Disappearing messages</string>
+    <string name="disappearing_messages_note">Start new chats with disappearing timer according to your settings</string>
+    <string name="disappearing_settings_are_enabled_and_all_messages_will_disappear_after_7_days">Disappearing settings are enabled and all messages will disappear after %s</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected">ToyVPN is disconnected!</string>
+    <string name="do_not_have_permission">Do not have required permission</string>
+    <string name="docs">Docs</string>
+    <string name="docs_empty">It seems like you don\'t have any documents yet</string>
+    <string name="downloading">downloading</string>
+    <string name="duplicate_contacts">Duplicate contacts</string>
+    <string name="empty_chat">Empty chat</string>
+    <string name="enabled">enabled</string>
+    <string name="enter_nickname">Enter Nickname</string>
+    <string name="enter_to_send_messages">Enter to send messages</string>
+    <string name="enter_to_send_messages_note">Enter key on your keyboard will send your messages</string>
+    <string name="enter_your_pin">Enter your pin</string>
+    <string name="enter_your_pin_to_proceed">Enter your pin to proceed</string>
+    <string name="error">Alert</string>
+    <string name="error_member_add">Group can have maximum 20 members Only</string>
+    <string name="exceptionInErrorResponse">Exception in parsing error response.</string>
+    <string name="exit_group">Exit group</string>
+    <string name="export">export</string>
+    <string name="export_button">Export</string>
+    <string name="export_dialog">Import and export contacts</string>
+    <string name="exporting_contacts">Exporting contacts</string>
+    <string name="exporting_contacts_note">Please wait while contacts are exporting…</string>
+    <string name="file_name">File Name</string>
+    <string name="file_size">File Size</string>
+    <string name="file_size_type"><![CDATA[File size & type]]></string>
+    <string name="file_storage">File Storage</string>
+    <string name="file_title">File Title</string>
+    <string name="files">Files</string>
+    <string name="filter_by">Filter by</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="font_emoji">Font and Emoji size</string>
+    <string name="font_emoji_note">Small</string>
+    <string name="forward_to">Forward to</string>
+    <string name="forwarded">Forwarded</string>
+    <string name="generating_keys">Generating Keys...</string>
+    <string name="group_chats">Group chats</string>
+    <string name="group_descriptions_will_be_visible_to_members_of_this_group">Group descriptions will be visible to members of this group</string>
+    <string name="group_details">Group details</string>
+    <string name="group_members">Group Members</string>
+    <string name="group_settings">Group Settings</string>
+    <string name="hello_blank_fragment">Hello blank Chat fragment</string>
+    <string name="hello_contacts_blank_fragment">Hello blank Contacts fragment</string>
+    <string name="hello_file_storage_blank_fragment">Hello blank File Storage fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_profile_manage_blank_fragment">Hello blank Profile Manage fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hide_sensitive_chat_note">This will hide direct and group chat messages including audio, video and files</string>
+    <string name="hide_sensitive_message_preview">Hide sensitive message preview</string>
+    <string name="hide_sensitive_message_preview_note">Hide previews on the lock screen</string>
+    <string name="hide_sensitive_messages">Hide sensitive messages</string>
+    <string name="hide_sensitive_messages_chat">Hide all messages</string>
+    <string name="hide_sensitive_messages_chat_anonymous_group">Hide anonymous group messages</string>
+    <string name="hide_sensitive_messages_chat_direct">Hide direct chat messages</string>
+    <string name="hide_sensitive_messages_chat_group">Hide group messages</string>
+    <string name="i_have_read_and_understood_the_warning_above">I have read and understood the warning above.</string>
+    <string name="image">Image</string>
+    <string name="image_editor_add_a_sticker">Add a sticker</string>
+    <string name="image_editor_blur">Blur</string>
+    <string name="image_editor_blur_faces">Blur faces</string>
+    <string name="image_editor_clear_all">Clear all</string>
+    <string name="image_editor_done_editing">Done editing</string>
+    <string name="image_editor_draw">Draw</string>
+    <string name="image_editor_draw_anywhere_to_blur">Draw anywhere to blur</string>
+    <string name="image_editor_draw_to_blur_additional">Draw to blur additional faces or areas</string>
+    <string name="image_editor_toggle_between_marker_and_highlighter">Toggle between marker and highlighter</string>
+    <string name="image_editor_toggle_between_text_styles">Toggle between text styles</string>
+    <string name="image_editor_undo">Undo</string>
+    <string name="image_editor_write_text">Write text</string>
+    <string name="images">Images</string>
+    <string name="import_button">Import</string>
+    <string name="import_dialog">Import contacts</string>
+    <string name="import_export">Import/Export Contacts</string>
+    <string name="import_export_note">import or export your chat contacts</string>
+    <string name="importing_contacts">Importing contacts</string>
+    <string name="importing_contacts_note">Please wait while contacts are importing…</string>
+    <string name="incomplete_proxy_settings">
+        Incomplete proxy settings. For HTTP proxy we require both hostname and port settings.
+    </string>
+    <string name="invalid_data">Invalid data receied.</string>
+    <string name="keep_a">Keep A</string>
+    <string name="keep_b">Keep B</string>
+    <string name="keep_chats">Keep chats</string>
+    <string name="key">lakjfalsjfiosdjl fowi 029u4893rji9pq3fw</string>
+    <string name="label">Label</string>
+    <string name="large">Large</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="leave_group_alert">You wont be able to send and receive messages from this group</string>
+    <string name="leave_group_chat_details">Leave group</string>
+    <string name="leave_group_title">Leave %s ?</string>
+    <string name="letter">A</string>
+    <string name="links">Links</string>
+    <string name="links_empty">It seems like you don\'t have any links yet</string>
+    <string name="main_activity_set_nickname">Set NickName</string>
+    <string name="media">Media</string>
+    <string name="media_doc_and_links">Media, Doc and links</string>
+    <string name="media_empty">It seems like you don\'t have any media yet</string>
+    <string name="media_gallery">Media gallery</string>
+    <string name="media_restrictions_enabled">Media restrictions %s</string>
+    <string name="media_settings">Media settings</string>
+    <string name="media_sharing">Media sharing</string>
+    <string name="media_sharing_note">Restrict media files to be saved or forwarded in this conversation</string>
+    <string name="media_visibility">Media visibility</string>
+    <string name="media_visibility_note">Enabling this will make all media disappear once you leave the chat</string>
+    <string name="members">Members</string>
+    <string name="message_delete_note">This message will no longer available in your media</string>
+    <string name="messages">messages?</string>
+    <string name="mute_notifications">Mute notifications</string>
+    <string name="n_a">N/A</string>
+    <string name="navigation_drawer_close">drawer close</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="network_check">https://google.com/</string>
+    <string name="network_connection_not_found_n_please_check_your_internet">Network Connection not found! \n Please check your internet</string>
+    <string name="new_chat">New Chat</string>
+    <string name="new_group">New group</string>
+    <string name="new_message">New Secure Message</string>
+    <string name="next">Next</string>
+    <string name="nickname">Nickname</string>
+    <string name="nickname_alert">Nickname alert</string>
+    <string name="no">NO</string>
+    <string name="no_app_found">No App Found</string>
+    <string name="no_internet">No internet Connection.</string>
+    <string name="note_this_will_be_only_visible_to_you">NOTE: This will be only visible to you</string>
+    <string name="notification_settings">Notification settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_message">Manange calls, message tones, vibrate, sound and message preview</string>
+    <string name="off">Off</string>
+    <string name="ok">Ok</string>
+    <string name="one_to_one_chats">One to one chats</string>
+    <string name="opened">Opened</string>
+    <string name="or">OR</string>
+    <string name="owner_change_alert">You will no longer be owner of the group.Please choose the owner before leaving the group</string>
+    <string name="packages">Packages (comma separated):</string>
+    <string name="pages_count">Pages Count</string>
+    <string name="pin">Pin %s</string>
+    <string name="pin_did_not_match">Pin didn\'t match</string>
+    <string name="pleaseWait">Please wait ...</string>
+    <string name="please_enter_the_chat_id_of_the_contact_you_would_like_to_add_or_scan_qr_code">Please enter the Chat ID of the contact you would like to add or scan QR code</string>
+    <string name="please_wait_while_your_app_is_being_deleted">Please wait while your app is being deleted.</string>
+    <string name="port">Server Port:</string>
+    <string name="previous">Previous</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_and_policy">Privacy and policy</string>
+    <string name="privacy_message">File saving, disappearing messages, read receipts, blocked contacts and more</string>
+    <string name="private_clipboard">Private clipboard</string>
+    <string name="private_clipboard_note">Enabling this will not allow other users to copy media or chat</string>
+    <string name="proceed">Proceed</string>
+    <string name="profile_manage">Profile Manage</string>
+    <string name="proxyhost">HTTP proxy hostname</string>
+    <string name="proxyport">HTTP proxy port</string>
+    <string name="read_receipts">Read receipts</string>
+    <string name="read_receipts_chat_note">If turned off, your receipts will not be sent and you’ll not receive read receipts</string>
+    <string name="read_receipts_note">Send or receive read receipts in a chat</string>
+    <string name="read_receipts_privacy">Receipt privacy</string>
+    <string name="read_receipts_privacy_note">Only send receipts after my first reply in a chat.</string>
+    <string name="read_receipts_unknown">Unknown contacts</string>
+    <string name="read_receipts_unknown_note">Allow unknown contacts to see my receipts</string>
+    <string name="recent_chats">Recent Chats</string>
+    <string name="remove_from_group">Remove member</string>
+    <string name="remove_member_alert">Are you sure you want to remove member?</string>
+    <string name="required">Required</string>
+    <string name="retrying">Retrying...</string>
+    <string name="salt">sd;lfja094rjmo3wf90iewdf</string>
+    <string name="sample_text">This is a sample Text for showing sample of view</string>
+    <string name="sample_text_receive">Good morning! My name is Steven. I am a UX Designer from London and this is an example of a long message</string>
+    <string name="sample_text_send">We’re still waiting on the offer on our house to go through but I guess this type of thing can take a long time</string>
+    <string name="save">Save</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="search_chat">Search Chat</string>
+    <string name="search_chat_or_file_name">Search chat or file name</string>
+    <string name="search_group_name">Search group name</string>
+    <string name="search_name">Search name or ID</string>
+    <string name="search_name_or_id">Search name</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="secret">Shared Secret:</string>
+    <string name="select_emoji_size">Select Emoji Size</string>
+    <string name="select_font_size">Select Font Size</string>
+    <string name="select_member">Select member</string>
+    <string name="send_confidential_message">Send Tap to Reveal message</string>
+    <string name="set_nickname_here">Set your nickname</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="set_your_nickname_and_profile_picture">Set your nickname and profile picture</string>
+    <string name="sets_nickname">Somone sets your new nickname</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="sharedUserLabel">SharedUserId</string>
+    <string name="show_typing_indicator">Show typing indicator</string>
+    <string name="show_typing_indicator_note">Allowing this will let other users see when you are typing the messages</string>
+    <string name="small">Small</string>
+    <string name="ssl">SSL cetificate error. Unable to handshake</string>
+    <string name="start_new_conversation_with">Start new conversation with</string>
+    <string name="starts_new_chat">Somone starts new chat with you</string>
+    <string name="submit">Submit</string>
+    <string name="subscription_alert">Subscription alert</string>
+    <string name="subscription_ended">Service is unavailable, plan is expired.</string>
+    <string name="subscription_grace">Plan is about to expire</string>
+    <string name="subscription_near_end">Alerts you when subscription near to end</string>
+    <string name="tap_to_message">Tap to Message</string>
+    <string name="tap_to_reveal">Tap to reveal</string>
+    <string name="tap_to_reveal_audio">Tap to reveal the audio</string>
+    <string name="tap_to_reveal_file">Tap to reveal the file</string>
+    <string name="tap_to_reveal_image">Tap to reveal the image</string>
+    <string name="tap_to_reveal_settings_enabled">Tap to reveal settings %s</string>
+    <string name="tap_to_reveal_text">Tap to reveal the text</string>
+    <string name="tap_to_reveal_video">Tap to reveal the video</string>
+    <string name="text_somethingwentwrong">Something went wrong. Please try again</string>
+    <string name="theme">Theme</string>
+    <string name="theme_note">Set as Light</string>
+    <string name="time">Time</string>
+    <string name="time_inyerval_format_template">%1$s to %2$s</string>
+    <string name="time_wrong">Your phone date and time:</string>
+    <string name="timeout">Request timed out</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_file_download">File</string>
+    <string name="title_of_fragment">Title of fragment</string>
+    <string name="tv_destroy_chat_note">Note: This action will wipe your app and remove all of your data permanently</string>
+    <string name="tv_history_note">Note: This action will clear all your chat including media history and archived chats</string>
+    <string name="unPin">Unpin %s</string>
+    <string name="unarchive_menu">Unarchive %s</string>
+    <string name="unblock_alert">This user will be able to send you the messages. Are you sure you want to unblock?</string>
+    <string name="unblock_user">Unblock User</string>
+    <string name="unknown_package_names">
+        Some of the specified package names do not correspond to any installed packages.
+    </string>
+    <string name="user_account">My Account</string>
+    <string name="userid">~userID</string>
+    <string name="value_copied_to_clipboard_show">Value copied to clipboard</string>
+    <string name="verify">Verify</string>
+    <string name="verify_pin">Verify your pin</string>
+    <string name="verify_scan_fragment__scan_the_qr_code_on_your_contact">Scan the QR Code on your contact\'s device.</string>
+    <string name="version">Version 1.1.0</string>
+    <string name="veryfy_pin_note">Verify your pin to create your new pin</string>
+    <string name="video">Video</string>
+    <string name="view_all">View all</string>
+    <string name="view_details">Conversation details</string>
+    <string name="view_once">View Once</string>
+    <string name="vpn_off">VPN OFF</string>
+    <string name="vpn_on">VPN ON</string>
+    <string name="wallpaper">Wallpapers</string>
+    <string name="wipe_chat">Wipe Chat</string>
+    <string name="wipe_chat_and_data">Wipe Chat and Data</string>
+    <string name="wipe_chat_data">Wipe chat &amp; data</string>
+    <string name="wipe_chat_notification_dialog">You won’t be able to retrieve your chat.\nAre you sure you want to proceed?</string>
+    <string name="wipe_chat_s_only">Wipe Chat(s) Only</string>
+    <string name="wipe_chat_s_only_note">This will only delete your chat conversation(s) including archived ones. Your contacts and profile data will not be deleted.</string>
+    <string name="wipe_everything">Wipe Everything</string>
+    <string name="wipe_everything_note"><![CDATA[This will delete any data associated with your profile, contacts & their IDs, chat conversation(s) including archived ones stored in this application will be deleted permanently.]]></string>
+    <string name="wipe_pin_note">You’re about to wipe this app.\n This will delete all of your data, and\n  it cannot be restored.</string>
+    <string name="yes">YES</string>
+    <string name="yes_proceed">Yes, proceed</string>
+    <string name="you_are_about_to_wipe_your_app">You are about to wipe your App</string>
+    <string name="your_device_date_and_time_is_inaccurate_n_please_adjust_your_clock_and_try_again">Your device date and time is inaccurate.\n Please adjust your clock and try again.</string>
+    <string name="your_nickname_will_be_visible_to_your_contacts">Your nickname will be visible to your contacts</string>
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+
+    </style>
+    <style name="Chat.Button.Import.List.Delete" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/dark_red</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="Chat.Button.Import.List.Import" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">0dp</item>
+
+    </style>
+    <style name="Chat.Profile.Privacy.SubTitle" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Profile.Privacy.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Profile.Privacy.Title.Note.Three.Lines" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="Chat.Profile.Privacy.Title.Note.Two.Lines" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Chat.Text.Agreement.CheckBox" parent="Theme.Chat">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Agreement.Option" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Agreement.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Body" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.01</item>
+    </style>
+    <style name="Chat.Text.Body.Expiry" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.01</item>
+    </style>
+    <style name="Chat.Text.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+    <style name="Chat.Text.Bottom.Dialog.Progress" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+    </style>
+    <style name="Chat.Text.Bottom.Dialog.Text" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+    </style>
+    <style name="Chat.Text.Bottom.Dialog.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+    </style>
+    <style name="Chat.Text.Button.Chat.Settings" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Button.Chat.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/deep_black</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Caption" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.03</item>
+    </style>
+    <style name="Chat.Text.Disappearing.Option" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant</item>
+    </style>
+    <style name="Chat.Text.Disappearing.Option_custom" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:textColor">@color/gray_variant</item>
+    </style>
+    <style name="Chat.Text.Group.Text.Options" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Chat.Text.Group.Text.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="Chat.Text.Import.Conflict.Button" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name.Title.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Item.Import.List.Note" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start</item>
+
+    </style>
+    <style name="Chat.Text.Item.Import.List.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start</item>
+
+    </style>
+    <style name="Chat.Text.Network.Error" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.01</item>
+    </style>
+    <style name="Chat.Text.Note.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="Chat.Text.Note.Wipe.Chat.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:minLines">3</item>
+        <item name="alpha">0.81</item>
+    </style>
+    <style name="Chat.Text.Note.Wipe.Chat.Data_Second" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:minLines">4</item>
+        <item name="alpha">0.81</item>
+    </style>
+    <style name="Chat.Text.Subscription" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/_5sdp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingEnd">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="Chat.Text.Title.Note.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Title.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.title.Wipe.Chat.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="Chat.TextAppearance.Button.Dialog" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textColorPrimary">@color/faded_black</item>
+    </style>
+    <style name="Chat.Widget.Button.Dialog" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textAppearance">@style/Chat.TextAppearance.Button.Dialog</item>
+        <item name="android:textColor">@color/chat_button_secondary_text_selector</item>
+    </style>
+    <style name="Chat_DayNight_Dialog_FullScreen" parent="Theme.Chat">
+        <item name="android:windowAnimationStyle">@style/TextSecure.Animation.FullScreenDialog
+        </item>
+    </style>
+    <style name="Chat_NegativeButtonStyle" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_cancel</item>
+        
+    </style>
+    <style name="Chat_PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_add</item>
+        
+    </style>
+    <style name="Chat_ThemeOverlay_Dialog_Rounded" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/chat.MaterialAlertDialog</item>
+        <item name="android:background">@color/faded_black_60</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/chat.TextAppearance.AppCompat.Title
+        </item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.Signal.Body1</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Chat_PositiveButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Chat.Widget.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Chat_NegativeButtonStyle</item>
+        <item name="textColorAlertDialogListItem">@color/white</item>
+
+    </style>
+    <style name="ConversationContextMenuAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/delay_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+    <style name="CustomCheckbox02" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bg_check_box</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="CustomMaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">
+            @style/CustomMaterialAlertDialog.ShapeAppearanceOverlay
+        </item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="CustomMaterialAlertDialog.ShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="CustomPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/deep_black</item>
+    </style>
+    <style name="CustomTransparentDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        
+    </style>
+    <style name="DefaultNumberPickerTheme" parent="Theme.Chat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/search_view_text_size</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant_80</item>
+        <item name="android:textColorHint">@color/gray_variant_80</item>
+    </style>
+    <style name="ImageView.Corner" parent="">
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <style name="ImageView.Round" parent="">
+        <item name="cornerSize">@dimen/_12sdp</item>
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/bg_window_fill_color</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textColorSecondary">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+
+    </style>
+    <style name="MyPinDialogStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="MyTransparentBottomSheetDialogTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:colorBackground">@color/transparent</item>
+    </style>
+    <style name="PinWidget"/>
+    <style name="PinWidget.PinView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textCursorDrawable">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandle">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleLeft">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleRight">@drawable/pv_invisible_image</item>
+    </style>
+    <style name="PopupMenuStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:colorBackground">@color/deep_black</item>
+    </style>
+    <style name="PopupMenuStyleToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:popupBackground">@drawable/popup_menu_background</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="colorControlNormal">@color/faded_black</item>
+        <item name="actionOverflowButtonStyle">@style/ToolbarOverflowStyle</item>
+    </style>
+    <style name="PopupMenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+    <style name="SearchViewTheme" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/search_view_text_size</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant_80</item>
+        <item name="android:textColorHint">@color/gray_variant_80</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="tint">@color/gray_variant_80</item>
+    </style>
+    <style name="SearchViewTheme_dialog" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="android:searchHintIcon" ns1:targetApi="lollipop_mr1">@color/faded_black</item>
+        <item name="tint">@color/faded_black</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Chat.BottomSheet.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">18dp</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Signal.MediaSelection" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+    </style>
+    <style name="SquareFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:background">@drawable/square_fab_background</item>
+        <item name="shapeAppearanceOverlay">@style/SquareShapeAppearanceOverlay</item>
+    </style>
+    <style name="SquareShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="TextAppearance.Signal.Body1" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="TextAppearance.Signal.Body2" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextSecure.Animation.FullScreenDialog" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_scale_out</item>
+    </style>
+    <style name="TextSecure_LightActionBar_Settings">
+        <item name="colorControlHighlight">@color/transparent_black_15</item>
+    </style>
+    <style name="Theme.Chat" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_10</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/faded_black_50</item>
+        <item name="colorOnSecondary">@color/faded_black</item>
+        <item name="android:windowBackground">@color/white</item>
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+        
+
+
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionMenuTextColor">@color/faded_black</item>
+        <item name="actionMenuTextColor">@color/faded_black</item>
+    </style>
+    <style name="Theme.Chat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Chat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Chat.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme_Chat_AlertDialog_Dark_Cornered" parent="Theme.Chat">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:windowBackground">@drawable/dialog_corners</item>
+    </style>
+    <style name="Theme_Chat_AlertDialog_Light_Cornered" parent="Theme.Chat">
+        <item name="android:windowBackground">@drawable/dialog_corners</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+    <style name="Theme_Chat_RoundedBottomSheet" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/Widget.Chat.BottomSheet.Rounded</item>
+
+        <item name="android:textColorPrimary">@color/core_grey_05</item>
+
+        <item name="colorAccent">@color/light_blue</item>
+
+        <item name="android:navigationBarColor" ns1:ignore="NewApi">@color/core_grey_75</item>
+        <item name="android:windowLightNavigationBar" ns1:ignore="NewApi">false</item>
+        <item name="android:statusBarColor" ns1:ignore="NewApi">@color/transparent</item>
+    </style>
+    <style name="ToolbarOverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="ToolbarSubtitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:panelBackground">@drawable/popup_menu_background</item>
+    </style>
+    <style name="ToolbarThemeFragment" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+    </style>
+    <style name="ToolbarThemeHomeFragment" parent="@style/Theme.Chat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/ToolbarOverflowStyle</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:panelBackground">@drawable/popup_menu_background</item>
+        <item name="android:titleTextAppearance">@style/ToolbarTitleStyle</item>
+        <item name="android:subtitleTextAppearance">@style/ToolbarSubtitleStyle</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="ToolbarThemeViewers" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="ViewOnceVideo.Duration" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/transparent_black_60</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="Widget.Chat.BottomSheet.Rounded" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Chat.BottomSheet.Rounded
+        </item>
+        <item name="backgroundTint">@color/core_grey_75</item>
+    </style>
+    <style name="attachment_sent_text">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+
+    </style>
+    <style name="button_dialog_cancel_delete">
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="button_dialog_create_folder">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="button_dialog_delete">
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/deep_black</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="chat.MaterialAlertDialog" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/roundedCornersImageView1</item>
+    </style>
+    <style name="chat.TextAppearance.AppCompat.Title" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    <style name="chat.wallpaper.text" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.03</item>
+    </style>
+    <style name="custom_toast_text">
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="disappearing_options">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="emoji_fade_animation_style" ns1:ignore="UnusedResources">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="menu_options">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_12sdp</item>
+    </style>
+    <style name="roundedCornersImageView1" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_2sdp</item>
+    </style>
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+    </style>
+    <style name="toolbar_title">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="toolbar_title_sub">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <declare-styleable name="AudioView">
+        <attr format="color" name="foregroundTintColor"/>
+        <attr format="color" name="backgroundTintColor"/>
+        <attr format="color" name="waveformThumbTint"/>
+        <attr format="color" name="waveformPlayedBarsColor"/>
+        <attr format="color" name="waveformUnplayedBarsColor"/>
+        <attr format="boolean" name="audioView_showSeekBar"/>
+        <attr format="color" name="progressAndPlayTint"/>
+        <attr format="boolean" name="autoRewind"/>
+        <attr format="enum" name="audioView_mode">
+            <enum name="normal" value="0"/>
+            <enum name="small" value="1"/>
+            <enum name="draft" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CameraButtonView">
+        <attr format="dimension" name="imageCaptureSize"/>
+        <attr format="dimension" name="recordSize"/>
+    </declare-styleable>
+    <declare-styleable name="CameraView">
+        <attr format="integer" name="camera"/>
+        <attr name="scaleType"/>
+        <attr format="enum" name="lensFacing">
+            <enum name="none" value="0"/>
+            <enum name="front" value="1"/>
+            <enum name="back" value="2"/>
+        </attr>
+        <attr format="enum" name="captureMode">
+            <enum name="image" value="0"/>
+            <enum name="video" value="1"/>
+            <enum name="mixed" value="2"/>
+        </attr>
+        <attr format="enum" name="flash">
+            <enum name="auto" value="1"/>
+            <enum name="on" value="2"/>
+            <enum name="off" value="4"/>
+        </attr>
+
+        <attr format="boolean" name="pinchToZoomEnabled"/>
+
+    </declare-styleable>
+    <declare-styleable name="CameraXFlashState">
+        <attr format="boolean" name="state_flash_auto"/>
+        <attr format="boolean" name="state_flash_off"/>
+        <attr format="boolean" name="state_flash_on"/>
+    </declare-styleable>
+    <declare-styleable name="GradientOutlineView">
+        <attr format="dimension" name="gradientOutlineStrokeWidth"/>
+        <attr format="dimension" name="gradientOutlineCornerRadius"/>
+        <attr format="color" name="gradientOutlineStartColor"/>
+        <attr format="color" name="gradientOutlineCenterColor"/>
+        <attr format="color" name="gradientOutlineEndColor"/>
+        <attr format="enum" name="gradientOutlineOrientation">
+            <enum name="left_to_right" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PinEntryView">
+        <attr format="dimension" name="pinEntryMargin"/>
+        <attr format="dimension" name="pinEntryWidth"/>
+        <attr format="reference" name="pinEntryFocusedOutline"/>
+        <attr format="reference" name="pinEntryUnfocusedOutline"/>
+        <attr format="reference" name="pinEntryCursorDrawable"/>
+        <attr format="integer" name="pinEntryCount"/>
+        <attr format="enum" name="pinEntryType">
+            <enum name="number" value="0"/>
+            <enum name="passwordNumber" value="1"/>
+            <enum name="passwordText" value="2"/>
+        </attr>
+
+        <attr format="color" name="pinEntryTextColor"/>
+    </declare-styleable>
+    <declare-styleable name="PinView">
+        <attr format="integer" name="itemCount"/>
+        <attr format="dimension" name="itemWidth"/>
+        <attr format="dimension" name="itemHeight"/>
+        <attr format="dimension" name="itemRadius"/>
+        <attr format="dimension" name="itemSpacing"/>
+        <attr format="dimension" name="lineWidth"/>
+        <attr format="reference|color" name="lineColor"/>
+        <attr format="color" name="lineGradientStartColor"/>
+        <attr format="color" name="lineGradientEndColor"/>
+        <attr format="enum" name="viewType">
+            <enum name="rectangle" value="0"/>
+            <enum name="line" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="android:cursorVisible"/>
+        <attr format="dimension" name="cursorWidthPin"/>
+        <attr format="reference|color" name="cursorColorPin"/>
+        <attr name="android:itemBackground"/>
+        <attr format="boolean" name="hideLineWhenFilled"/>
+    </declare-styleable>
+    <declare-styleable name="PinViewTheme">
+        <attr format="reference" name="pinViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="ShapeScrim">
+        <attr format="string" name="shape"/>
+        <attr format="float" name="radius"/>
+    </declare-styleable>
+    <declare-styleable name="VideoThumbnailsRangeSelectorView">
+        <attr format="dimension" name="thumbWidth"/>
+        <attr format="color" name="thumbColorEdited"/>
+        <attr format="color" name="thumbColor"/>
+        <attr format="dimension" name="cursorWidth"/>
+        <attr format="color" name="cursorColor"/>
+        <attr format="dimension" name="thumbTouchRadius"/>
+        <attr format="dimension" name="thumbHintTextSize"/>
+        <attr format="color" name="thumbHintTextColor"/>
+        <attr format="color" name="thumbHintBackgroundColor"/>
+    </declare-styleable>
+</resources>

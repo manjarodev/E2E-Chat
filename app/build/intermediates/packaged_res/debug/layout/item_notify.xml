@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginVertical="@dimen/_3sdp"
+    android:clickable="false"
+    android:focusable="false">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_notify"
+        android:clickable="false"
+        android:focusable="false"
+        android:padding="@dimen/_5sdp"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/iv_image_notification"
+            android:layout_width="@dimen/_11sdp"
+            android:layout_height="@dimen/_11sdp"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ic_info" />
+
+        <TextView
+            android:id="@+id/text_notification_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/iv_image_notification"
+            android:clickable="false"
+            android:focusable="false"
+            android:fontFamily="@font/astronomus_regular"
+            android:letterSpacing="-0.01"
+            android:maxLines="1"
+            android:paddingStart="@dimen/_3sdp"
+            android:text="Admin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8ssp" />
+
+        <TextView
+            android:id="@+id/text_notification_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/text_notification_name"
+            android:clickable="false"
+            android:focusable="false"
+            android:fontFamily="@font/astronomus_regular"
+            android:letterSpacing="-0.01"
+            android:maxLines="1"
+            android:paddingStart="@dimen/_2sdp"
+            android:text="removed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8ssp" />
+
+        <LinearLayout
+            android:id="@+id/layout_action_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_notification_action"
+            android:clickable="false"
+            android:focusable="false"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/_2sdp">
+
+            <TextView
+                android:id="@+id/start_quote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:fontFamily="@font/astronomus_regular"
+                android:letterSpacing="-0.01"
+                android:maxLines="1"
+                android:text="‘’"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp" />
+
+
+            <TextView
+                android:id="@+id/quoted_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:fontFamily="@font/astronomus_regular"
+                android:letterSpacing="-0.01"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_1sdp"
+                android:text="Jhon"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp" />
+
+            <TextView
+                android:id="@+id/end_quote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:fontFamily="@font/astronomus_regular"
+                android:letterSpacing="-0.01"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_1sdp"
+                android:text="’’"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_notification_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/layout_action_on"
+            android:clickable="false"
+            android:focusable="false"
+            android:fontFamily="@font/astronomus_regular"
+            android:letterSpacing="-0.01"
+            android:maxLines="1"
+            android:paddingStart="@dimen/_2sdp"
+            android:text="admin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8ssp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</RelativeLayout>

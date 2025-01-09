@@ -1,0 +1,7 @@
+#Mon Mar 25 22:08:17 PKT 2024
+base.0=/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+base.1=/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/intermediates/dex/debug/minifyDebugWithR8/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_14sdp"
+        android:background="@drawable/bg_dailog">
+
+        <ImageView
+            android:id="@+id/iv_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_warning"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:visibility="gone"
+            android:src="@drawable/ic_close_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:gravity="start"
+            android:text="Delete message ?"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/iv_alert" />
+
+        <TextView
+            android:id="@+id/tv_delete_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:text="This message will no longer available"
+            android:theme="@style/SearchViewTheme_dialog"
+            android:textColor="@color/gray_variant_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+            tools:targetApi="m" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_delete_for_me"
+            style="@style/button_dialog_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_button_backup"
+            android:drawablePadding="@dimen/_6sdp"
+            android:gravity="center"
+            android:text="Delete For me"
+            app:layout_constraintBottom_toTopOf="@id/btn_delete_for_everyone"
+            app:layout_constraintEnd_toEndOf="@id/tv_delete_notification"
+            app:layout_constraintStart_toStartOf="@id/tv_delete_notification"
+            app:layout_constraintTop_toBottomOf="@id/tv_delete_notification"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_delete_for_everyone"
+            style="@style/button_dialog_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_button_backup"
+            android:drawablePadding="@dimen/_6sdp"
+            android:gravity="center"
+            android:text="Delete For EVERYONE"
+            app:layout_constraintBottom_toTopOf="@id/btn_cancel"
+            app:layout_constraintEnd_toEndOf="@id/tv_delete_notification"
+            app:layout_constraintStart_toStartOf="@id/tv_delete_notification"
+            app:layout_constraintTop_toBottomOf="@id/btn_delete_for_me"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            style="@style/button_dialog_cancel_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@drawable/bg_button_cancel_delete"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/gray_variant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/btn_delete_for_everyone"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_delete_for_everyone"
+            app:layout_constraintTop_toBottomOf="@id/btn_delete_for_everyone"
+            tools:ignore="RtlHardcoded" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

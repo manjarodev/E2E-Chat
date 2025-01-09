@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="bg_window_fill_color">@color/black_variation</color>
+    <color name="black">#FF000000</color>
+    <color name="black_variation">#191919</color>
+    <color name="blue">#00F8A5</color>
+    <color name="blue_10">#1A00F8A5</color>
+    <color name="blue_18">#2B00F8A5</color>
+    <color name="blue_20">#3300F8A5</color>
+    <color name="blue_30">#4D00F8A5</color>
+    <color name="chat_button_secondary">@color/core_grey_05</color>
+    <color name="chat_button_secondary_ripple">@color/core_grey_02</color>
+    <color name="chat_button_secondary_stroke">@color/core_grey_15</color>
+    <color name="chat_button_secondary_text">@color/core_ultramarine</color>
+    <color name="chat_button_secondary_text_disabled">@color/core_grey_25</color>
+    <color name="chat_colorOnSurface">#1B1B1D</color>
+    <color name="chat_gray">#EBEDEF</color>
+    <color name="chat_input_background">@color/chat_gray</color>
+    <color name="colorOnPrimary">@color/blue</color>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="conversation_item_selected_system_ui">#4d4d4d</color>
+    <color name="core_black">#000000</color>
+    <color name="core_grey_02">#f6f6f6</color>
+    <color name="core_grey_05">#e9e9e9</color>
+    <color name="core_grey_10">#e2e2e2</color>
+    <color name="core_grey_15">#d4d4d4</color>
+    <color name="core_grey_20">#c6c6c6</color>
+    <color name="core_grey_25">#b9b9b9</color>
+    <color name="core_grey_30">#b3b3b3</color>
+    <color name="core_grey_35">#9e9e9e</color>
+    <color name="core_grey_40">#919191</color>
+    <color name="core_grey_45">#848484</color>
+    <color name="core_grey_50">#777777</color>
+    <color name="core_grey_55">#6a6a6a</color>
+    <color name="core_grey_60">#5e5e5e</color>
+    <color name="core_grey_75">#3b3b3b</color>
+    <color name="core_ultramarine">#2c6bed</color>
+    <color name="core_white">#ffffff</color>
+    <color name="dark_black">#333333</color>
+    <color name="dark_black_tint">#131313</color>
+    <color name="dark_red">#FF4D4D</color>
+    <color name="dark_red_10">#1AFF4D4D</color>
+    <color name="dark_red_80">#CCFF4D4D</color>
+    <color name="deep_black">#252528</color>
+    <color name="emoji_background_color">#212121</color>
+    <color name="emoji_divider_color">#ff4d4d4d</color>
+    <color name="emoji_text_color">@color/emoji_white</color>
+    <color name="emoji_text_secondary_color">#99FFFFFF</color>
+    <color name="faded_black">#202020</color>
+    <color name="faded_black_05">#0D202020</color>
+    <color name="faded_black_10">#1A202020</color>
+    <color name="faded_black_12">#1F202020</color>
+    <color name="faded_black_20">#33202020</color>
+    <color name="faded_black_30">#4D202020</color>
+    <color name="faded_black_40">#66202020</color>
+    <color name="faded_black_50">#80202020</color>
+    <color name="faded_black_60">#99202020</color>
+    <color name="faded_black_68">#B2202020</color>
+    <color name="faded_black_70">#B3202020</color>
+    <color name="faded_black_80">#CC202020</color>
+    <color name="gradient_center">@color/blue_30</color>
+    <color name="gradient_end">@color/blue_20</color>
+    <color name="gradient_start">@color/blue</color>
+    <color name="gray">#DADADA</color>
+    <color name="gray_22">#38DADADA</color>
+    <color name="gray_30">#4DDADADA</color>
+    <color name="gray_primary">#E1E2E6</color>
+    <color name="gray_variant">#BABBBF</color>
+    <color name="gray_variant_10">#1ABABBBF</color>
+    <color name="gray_variant_20">#33BABBBF</color>
+    <color name="gray_variant_22">#38BABBBF</color>
+    <color name="gray_variant_30">#4DBABBBF</color>
+    <color name="gray_variant_40">#64BABBBF</color>
+    <color name="gray_variant_50">#80BABBBF</color>
+    <color name="gray_variant_80">#CCBABBBF</color>
+    <color name="gray_variant_second">#434346</color>
+    <color name="green">#46AF4A</color>
+    <color name="light_blue">#B5D3FF</color>
+    <color name="light_orange">#FF9800</color>
+    <color name="light_orange_15">#26FF9800</color>
+    <color name="old_blue">#005FF7</color>
+    <color name="orange">#F7931A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="reactions_screen_dark_shade_color">@color/transparent_black_70</color>
+    <color name="reactions_screen_light_shade_color">@color/transparent_white_87</color>
+    <color name="settings_message">@color/gray_variant</color>
+    <color name="signal_accent_green">#4CAF50</color>
+    <color name="signal_accent_primary">@color/core_ultramarine</color>
+    <color name="signal_button_primary_ripple">@color/transparent_black_15</color>
+    <color name="signal_icon_tint_primary">@color/core_grey_75</color>
+    <color name="signal_text_toolbar_subtitle">@color/transparent_white_90</color>
+    <color name="signal_text_toolbar_title">@color/core_white</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="top_black">#343437</color>
+    <color name="transparent">@color/transparent_color</color>
+    <color name="transparent_black_15">#26000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_60">#99000000</color>
+    <color name="transparent_black_70">#b3000000</color>
+    <color name="transparent_black_80">#CC000000</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="transparent_white_05">#0Dffffff</color>
+    <color name="transparent_white_08">#14ffffff</color>
+    <color name="transparent_white_10">#18ffffff</color>
+    <color name="transparent_white_15">#26ffffff</color>
+    <color name="transparent_white_20">#33ffffff</color>
+    <color name="transparent_white_25">#40ffffff</color>
+    <color name="transparent_white_30">#4Dffffff</color>
+    <color name="transparent_white_40">#66ffffff</color>
+    <color name="transparent_white_60">#99ffffff</color>
+    <color name="transparent_white_70">#b2ffffff</color>
+    <color name="transparent_white_80">#ccffffff</color>
+    <color name="transparent_white_87">#dfffffff</color>
+    <color name="transparent_white_90">#e6ffffff</color>
+    <color name="transparent_white_95">#f3ffffff</color>
+    <color name="ucrop_color_statusbar">@color/blue</color>
+    <color name="ucrop_color_toolbar">@color/blue</color>
+    <color name="ucrop_color_widget_active">@color/white</color>
+    <color name="ultra_light_bue">#F2F7FC</color>
+    <color name="voice_note_player_view_background">#F2F5F9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_04">#0AFFFFFF</color>
+    <color name="white_10">#26FFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#64FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_70">#B2FFFFFF</color>
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+
+    </style>
+    <style name="Chat.Button.Import.List.Delete" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/dark_red</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="Chat.Button.Import.List.Import" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">0dp</item>
+
+    </style>
+    <style name="Chat.Profile.Privacy.SubTitle" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Profile.Privacy.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Profile.Privacy.Title.Note.Three.Lines" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="Chat.Profile.Privacy.Title.Note.Two.Lines" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Chat.Text.Agreement.CheckBox" parent="Theme.Chat">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Agreement.Option" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Agreement.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Body" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.01</item>
+    </style>
+    <style name="Chat.Text.Body.Expiry" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.01</item>
+    </style>
+    <style name="Chat.Text.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+    <style name="Chat.Text.Bottom.Dialog.Progress" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+    </style>
+    <style name="Chat.Text.Bottom.Dialog.Text" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+    </style>
+    <style name="Chat.Text.Bottom.Dialog.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+
+    </style>
+    <style name="Chat.Text.Button.Chat.Settings" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Button.Chat.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/deep_black</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Caption" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.03</item>
+    </style>
+    <style name="Chat.Text.Disappearing.Option" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant</item>
+    </style>
+    <style name="Chat.Text.Disappearing.Option_custom" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:textColor">@color/gray_variant</item>
+    </style>
+    <style name="Chat.Text.Group.Text.Options" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/faded_black</item>
+    </style>
+    <style name="Chat.Text.Group.Text.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="Chat.Text.Import.Conflict.Button" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Import.Conflict.Name.Title.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/gray_variant</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Chat.Text.Item.Import.List.Note" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start</item>
+
+    </style>
+    <style name="Chat.Text.Item.Import.List.Title" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start</item>
+
+    </style>
+    <style name="Chat.Text.Network.Error" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.01</item>
+    </style>
+    <style name="Chat.Text.Note.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="Chat.Text.Note.Wipe.Chat.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:minLines">3</item>
+        <item name="alpha">0.81</item>
+    </style>
+    <style name="Chat.Text.Note.Wipe.Chat.Data_Second" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/gray_variant_40</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:minLines">4</item>
+        <item name="alpha">0.81</item>
+    </style>
+    <style name="Chat.Text.Subscription" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/_5sdp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingEnd">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="Chat.Text.Title.Note.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.Title.VerifyPin" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="Chat.Text.title.Wipe.Chat.Data" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="Chat.TextAppearance.Button.Dialog" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textColorPrimary">@color/faded_black</item>
+    </style>
+    <style name="Chat.Widget.Button.Dialog" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textAppearance">@style/Chat.TextAppearance.Button.Dialog</item>
+        <item name="android:textColor">@color/chat_button_secondary_text_selector</item>
+    </style>
+    <style name="Chat_DayNight_Dialog_FullScreen" parent="Theme.Chat">
+        <item name="android:windowAnimationStyle">@style/TextSecure.Animation.FullScreenDialog
+        </item>
+    </style>
+    <style name="Chat_NegativeButtonStyle" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_cancel</item>
+        
+    </style>
+    <style name="Chat_PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_add</item>
+        
+    </style>
+    <style name="Chat_ThemeOverlay_Dialog_Rounded" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/chat.MaterialAlertDialog</item>
+        <item name="android:background">@color/faded_black_60</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/chat.TextAppearance.AppCompat.Title
+        </item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.Signal.Body1</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Chat_PositiveButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Chat.Widget.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Chat_NegativeButtonStyle</item>
+        <item name="textColorAlertDialogListItem">@color/white</item>
+
+    </style>
+    <style name="ConversationContextMenuAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/delay_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+    <style name="CustomCheckbox02" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bg_check_box</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="CustomMaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">
+            @style/CustomMaterialAlertDialog.ShapeAppearanceOverlay
+        </item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="CustomMaterialAlertDialog.ShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="CustomPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/deep_black</item>
+    </style>
+    <style name="CustomTransparentDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        
+    </style>
+    <style name="DefaultNumberPickerTheme" parent="Theme.Chat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColorPrimary">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+    </style>
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/search_view_text_size</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant_80</item>
+        <item name="android:textColorHint">@color/gray_variant_80</item>
+    </style>
+    <style name="ImageView.Corner" parent="">
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <style name="ImageView.Round" parent="">
+        <item name="cornerSize">@dimen/_12sdp</item>
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textColorSecondary">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+
+    </style>
+    <style name="MyPinDialogStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="MyTransparentBottomSheetDialogTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:colorBackground">@color/transparent</item>
+    </style>
+    <style name="PopupMenuStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:colorBackground">@color/deep_black</item>
+    </style>
+    <style name="PopupMenuStyleToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:popupBackground">@drawable/popup_menu_background</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="colorControlNormal">@color/faded_black</item>
+        <item name="actionOverflowButtonStyle">@style/ToolbarOverflowStyle</item>
+    </style>
+    <style name="PopupMenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+    <style name="SearchViewTheme" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/search_view_text_size</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/gray_variant_80</item>
+        <item name="android:textColorHint">@color/gray_variant_80</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="tint">@color/gray_variant_80</item>
+    </style>
+    <style name="SearchViewTheme_dialog" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="android:searchHintIcon" ns1:targetApi="lollipop_mr1">@color/faded_black</item>
+        <item name="tint">@color/faded_black</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Chat.BottomSheet.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">18dp</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Signal.MediaSelection" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+    </style>
+    <style name="SquareFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:background">@drawable/square_fab_background</item>
+        <item name="shapeAppearanceOverlay">@style/SquareShapeAppearanceOverlay</item>
+    </style>
+    <style name="SquareShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="TextAppearance.Signal.Body1" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/faded_black</item>
+    </style>
+    <style name="TextAppearance.Signal.Body2" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextSecure.Animation.FullScreenDialog" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_scale_out</item>
+    </style>
+    <style name="TextSecure_LightActionBar_Settings">
+        <item name="colorControlHighlight">@color/transparent_black_15</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="Theme.Chat" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_10</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/faded_black_50</item>
+        <item name="colorOnSecondary">@color/faded_black</item>
+        <item name="android:windowBackground">@color/white</item>
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+        
+
+
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionMenuTextColor">@color/faded_black</item>
+        <item name="actionMenuTextColor">@color/faded_black</item>
+    </style>
+    <style name="Theme.Chat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Chat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Chat.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.Material3.DayNight" parent="Theme.Material3.Dark"/>
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="Theme.Material3.Dark.BottomSheetDialog"/>
+    <style name="Theme.Material3.DayNight.Dialog" parent="Theme.Material3.Dark.Dialog"/>
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="Theme.Material3.Dark.Dialog.Alert"/>
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="Theme.Material3.Dark.Dialog.MinWidth"/>
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="Theme.Material3.Dark.DialogWhenLarge"/>
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="Theme.Material3.Dark.NoActionBar"/>
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="Theme.Material3.DynamicColors.Dark"/>
+    <style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="ThemeOverlay.Material3.DynamicColors.Dark"/>
+    <style name="Theme_Chat_AlertDialog_Dark_Cornered" parent="Theme.Chat">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:windowBackground">@drawable/dialog_corners</item>
+    </style>
+    <style name="Theme_Chat_AlertDialog_Light_Cornered" parent="Theme.Chat">
+        <item name="android:windowBackground">@drawable/dialog_corners</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+    <style name="Theme_Chat_RoundedBottomSheet" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/Widget.Chat.BottomSheet.Rounded</item>
+
+        <item name="android:textColorPrimary">@color/core_grey_05</item>
+
+        <item name="colorAccent">@color/light_blue</item>
+
+        <item name="android:navigationBarColor" ns1:ignore="NewApi">@color/core_grey_75</item>
+        <item name="android:windowLightNavigationBar" ns1:ignore="NewApi">false</item>
+        <item name="android:statusBarColor" ns1:ignore="NewApi">@color/transparent</item>
+    </style>
+    <style name="ToolbarOverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="ToolbarSubtitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:panelBackground">@drawable/popup_menu_background</item>
+    </style>
+    <style name="ToolbarThemeFragment" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/faded_black</item>
+        <item name="colorOnPrimary">@color/faded_black</item>
+    </style>
+    <style name="ToolbarThemeHomeFragment" parent="@style/Theme.Chat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/ToolbarOverflowStyle</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextAppearance</item>
+        <item name="android:panelBackground">@drawable/popup_menu_background</item>
+        <item name="android:titleTextAppearance">@style/ToolbarTitleStyle</item>
+        <item name="android:subtitleTextAppearance">@style/ToolbarSubtitleStyle</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="ToolbarThemeViewers" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="ViewOnceVideo.Duration" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/transparent_black_60</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="Widget.Chat.BottomSheet.Rounded" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Chat.BottomSheet.Rounded
+        </item>
+        <item name="backgroundTint">@color/core_grey_75</item>
+    </style>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/>
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="Widget.MaterialComponents.NavigationRailView"/>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
+    <style name="attachment_sent_text">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+
+
+    </style>
+    <style name="button_dialog_cancel_delete">
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="button_dialog_create_folder">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="button_dialog_delete">
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/deep_black</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="chat.MaterialAlertDialog" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/roundedCornersImageView1</item>
+    </style>
+    <style name="chat.TextAppearance.AppCompat.Title" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="fontFamily">@font/astronomus_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    <style name="chat.wallpaper.text" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/astronomus_regular</item>
+        <item name="android:letterSpacing" ns1:ignore="NewApi">0.03</item>
+    </style>
+    <style name="custom_toast_text">
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="disappearing_options">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/faded_black</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="emoji_fade_animation_style" ns1:ignore="UnusedResources">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="menu_options">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_12sdp</item>
+    </style>
+    <style name="roundedCornersImageView1" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_2sdp</item>
+    </style>
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/faded_black</item>
+    </style>
+    <style name="toolbar_title">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+    <style name="toolbar_title_sub">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/astronomus_regular</item>
+    </style>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="CustomExpireTimerSelectorView__unit_labels">
+        <item>@string/CustomExpireTimerSelectorView__seconds</item>
+        <item>@string/CustomExpireTimerSelectorView__minutes</item>
+        <item>@string/CustomExpireTimerSelectorView__hours</item>
+        <item>@string/CustomExpireTimerSelectorView__days</item>
+        <item>@string/CustomExpireTimerSelectorView__weeks</item>
+    </string-array>
+
+    <integer-array name="PlaybackSpeedToggleTextView__speeds">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>50</item>
+    </integer-array>
+
+
+    <integer-array name="chat_chat_colors">
+        <item>@color/transparent</item>
+        <item>@color/conversation_crimson</item>
+        <item>@color/conversation_violet</item>
+        <item>@color/conversation_blue</item>
+        <item>@color/conversation_teal</item>
+        <item>@color/conversation_steel</item>
+        <item>@color/conversation_vermillion</item>
+        <item>@color/conversation_plumb</item>
+        <item>@color/conversation_taupe</item>
+    </integer-array>
+
+    <string-array name="PlaybackSpeedToggleTextView__speed_labels">
+        <item>@string/PlaybackSpeedToggleTextView__1x</item>
+        <item>@string/PlaybackSpeedToggleTextView__1p5x</item>
+        <item>@string/PlaybackSpeedToggleTextView__2x</item>
+        <item>@string/PlaybackSpeedToggleTextView__p5x</item>
+    </string-array>
+</resources>

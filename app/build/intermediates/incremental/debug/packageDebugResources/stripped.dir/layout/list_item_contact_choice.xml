@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/list_item_contact_choice_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_chat_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_contact_name" />
+
+        <Button
+            android:id="@+id/btn_keep_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep A"
+            app:layout_constraintTop_toBottomOf="@id/tv_chat_user_id" />
+
+        <Button
+            android:id="@+id/btn_keep_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep B"
+            app:layout_constraintTop_toBottomOf="@id/btn_keep_a" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

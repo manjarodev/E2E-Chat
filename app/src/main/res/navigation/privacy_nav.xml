@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/privacy_nav"
+    app:startDestination="@id/PrivacyFragment">
+
+    <fragment
+        android:id="@+id/PrivacyFragment"
+        android:name="com.devbeans.io.chat.fragments.PrivacyFragment"
+        tools:layout="@layout/privacy_fragment">
+        <action
+            android:id="@+id/action_PrivacyFragment_to_ChatDisappearFragment"
+            app:destination="@id/ChatDisappearFragmentGeneral"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top"
+            />
+        <action
+            android:id="@+id/action_PrivacyFragment_to_BlockedContactFragment"
+            app:destination="@id/BlockedContactFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChatDisappearFragmentGeneral"
+        android:name="com.devbeans.io.chat.fragments.DisappearingFragment"
+        tools:layout="@layout/disappearing_fragment"/>
+
+
+    <fragment
+        android:id="@+id/BlockedContactFragment"
+        android:name="com.devbeans.io.chat.fragments.BlockedContactsFragment"
+        tools:layout="@layout/blocked_contact_fragment"/>
+</navigation>

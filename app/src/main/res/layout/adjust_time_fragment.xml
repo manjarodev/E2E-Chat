@@ -1,0 +1,74 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/control_adjust_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_window_fill_color">
+
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/clock_adjust_screen" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/title_text"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:fontFamily="@font/astronomus_regular"
+            android:text="Set Accurate Time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_message"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/astronomus_regular"
+            android:text="@string/your_device_date_and_time_is_inaccurate_n_please_adjust_your_clock_and_try_again"
+            android:textColor="@color/gray_variant" />
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/adjust_time_btn"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/astronomus_regular"
+            android:text="Mon, 04 June 2022, 09:41 AM
+            US Standard Time"
+            android:textColor="@color/gray_variant_40"
+            android:textSize="@dimen/_10sdp" />
+
+
+        <Button
+            android:id="@+id/adjust_time_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/astronomus_regular"
+            android:text="@string/Adjust_time"
+            android:textColor="@color/faded_black"
+            android:textSize="@dimen/_13sdp" />
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/faded_black">
+
+    <com.devbeans.io.chat.utils.views.ImageEditorView
+        android:id="@+id/image_editor_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center" />
+
+    <com.devbeans.io.chat.fragments.ImageEditorHudV2
+        android:id="@+id/scribble_hud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_50sdp"/>
+
+</FrameLayout>

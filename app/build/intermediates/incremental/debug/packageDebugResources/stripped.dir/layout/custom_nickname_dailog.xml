@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_14sdp"
+        android:background="@drawable/bg_dailog" android:tag="layout/custom_nickname_dailog_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:gravity="start"
+            android:text="@string/set_nickname_here"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+
+            android:id="@+id/et_nickname"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_search_view"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            android:hint="@string/set_nickname_here"
+            android:inputType="text"
+            android:maxLength="28"
+            android:maxLines="1"
+            android:textColor="@color/gray_variant_80"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:paddingVertical="@dimen/_14sdp"
+            android:textColorHint="@color/gray_variant"
+            android:theme="@style/SearchViewTheme_dialog"
+            app:iconifiedByDefault="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+            app:queryBackground="@android:color/transparent"
+            tools:targetApi="m" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_create"
+            style="@style/button_dialog_create_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_19sdp"
+            android:background="@drawable/bg_button_options"
+            android:fontFamily="@font/astronomus_regular"
+            android:text="Set"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/et_nickname"
+            app:layout_constraintTop_toBottomOf="@id/et_nickname" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            style="@style/button_dialog_create_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_options"
+            android:fontFamily="@font/astronomus_regular"
+            android:text="@string/cancel"
+            app:layout_constraintBottom_toBottomOf="@id/btn_create"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_create"
+            app:layout_constraintTop_toTopOf="@id/btn_create" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

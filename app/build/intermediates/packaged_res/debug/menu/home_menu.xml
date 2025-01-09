@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_lock_chat_app"
+        android:icon="@drawable/ic_lock_open"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_create_new_group"
+        android:title="@string/create_new_group"
+        app:showAsAction="never"/>
+<!--    <item-->
+<!--        android:id="@+id/action_archive_chats"-->
+<!--        android:title="@string/archived_chats"-->
+<!--        app:showAsAction="never"/>-->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+
+</menu>

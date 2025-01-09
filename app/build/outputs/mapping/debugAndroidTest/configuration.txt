@@ -1,0 +1,67 @@
+# The proguard configuration file for the following section is /home/manjaro/.gradle/caches/transforms-3/841ce0af6889f2961fe37eb5282c5c4b/transformed/espresso-core-3.4.0/proguard.txt
+# Common proguard flags for all the espresso libraries.
+
+# ignore 'cannot find java.beans and mockito integration' warnings
+-dontwarn org.hamcrest.**
+
+# ignore 'can't find referenced class sun.misc.Unsafe' from guava
+-dontwarn androidx.test.espresso.core.deps.guava.**
+
+# ignore 'can't find referenced class javax.lang.model.element.Modifier'
+-dontwarn com.squareup.javawriter.JavaWriter
+
+# ignore 'can't find referenced class sun.misc.Unsafe, libcore.io.Memory' from protobuf
+-dontwarn androidx.test.espresso.core.deps.protobuf.**
+
+# ignore 'can't find referenced method android.app.Instrumentation' from android.jar
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# End of content from /home/manjaro/.gradle/caches/transforms-3/841ce0af6889f2961fe37eb5282c5c4b/transformed/espresso-core-3.4.0/proguard.txt
+# The proguard configuration file for the following section is /home/manjaro/.gradle/caches/transforms-3/02ad61b6b427a9affe9d4458cda491c0/transformed/runner-1.4.0/proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+# for 'can't find referenced class java.lang.management.RuntimeMXBean'
+-dontwarn org.junit.rules.DisableOnDebug
+
+# for 'can't find referenced class java.lang.management.ThreadMXBean'
+-dontwarn org.junit.internal.runners.statements.FailOnTimeout
+
+# for 'can't find referenced class java.beans.**, easymock, etc
+-dontwarn org.hamcrest.**
+# End of content from /home/manjaro/.gradle/caches/transforms-3/02ad61b6b427a9affe9d4458cda491c0/transformed/runner-1.4.0/proguard.txt
+# The proguard configuration file for the following section is /home/manjaro/.gradle/caches/transforms-3/b543814c1179a513a859e2103005ff27/transformed/monitor-1.4.0/proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# End of content from /home/manjaro/.gradle/caches/transforms-3/b543814c1179a513a859e2103005ff27/transformed/monitor-1.4.0/proguard.txt
+# The proguard configuration file for the following section is <unknown>
+-dontoptimize
+-keep class * {*;}
+-keep interface * {*;}
+-keep enum * {*;}
+-keepattributes *
+-ignorewarnings
+# End of content from <unknown>
+# The proguard configuration file for the following section is <unknown>
+-applymapping "/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/outputs/mapping/debug/mapping.txt"
+# End of content from <unknown>

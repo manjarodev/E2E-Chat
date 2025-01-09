@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <base-config cleartextTrafficPermitted="false" />
+    <domain includeSubdomains="true"
+        tools:ignore="NetworkSecurityConfig">devbeans.io</domain>
+    <pin-set
+        tools:ignore="NetworkSecurityConfig">
+        <pin digest="SHA-256">NZOdI4gj0NSyYWfNoNAHUP69Ol4DgYebKpF8Iincpaw=</pin>
+        <!-- backup pin -->
+        <pin digest="SHA-256">t1UYWLBeg+bdSqKQBRGxB6yIg+dAwyXSdWkStwJ6JWU=</pin>
+    </pin-set>
+
+</network-security-config>

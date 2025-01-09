@@ -1,0 +1,52 @@
+[
+  {
+    "name": "app_settings_expire_timer",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "auto_lock_nav",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "camera",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "chat_settings",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "disappear_nav",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "import_export",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "media",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "privacy_nav",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "splash_nav",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

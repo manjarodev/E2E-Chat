@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/media"
+    app:startDestination="@id/mediaReviewFragment">
+
+
+
+    <fragment
+        android:id="@+id/mediaReviewFragment"
+        android:name="com.devbeans.io.chat.fragments.MediaReviewFragment"
+        android:label="media_review_fragment"
+        tools:layout="@layout/v2_media_review_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mediaCaptureFragment"
+        android:name="com.devbeans.io.chat.camera.MediaCaptureFragment"
+        android:label="media_capture_fragment"
+        tools:layout="@layout/fragment_container">
+<!--        <action-->
+<!--            android:id="@+id/action_mediaCaptureFragment_to_mediaGalleryFragment"-->
+<!--            app:destination="@id/mediaGalleryFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_mediaCaptureFragment_to_textStoryPostCreationFragment"-->
+<!--            app:destination="@id/textStoryPostCreationFragment"-->
+<!--            app:enterAnim="@anim/slide_from_end"-->
+<!--            app:exitAnim="@null"-->
+<!--            app:popEnterAnim="@null"-->
+<!--            app:popExitAnim="@anim/slide_to_end" />-->
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_directly_to_mediaReviewFragment"
+        app:destination="@id/mediaReviewFragment" />
+
+    <action
+        android:id="@+id/action_directly_to_mediaCaptureFragment"
+        app:destination="@id/mediaCaptureFragment" />
+
+
+
+</navigation>

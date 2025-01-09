@@ -1,0 +1,851 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.devbeans.io.chat"
+4    android:versionCode="1"
+5    android:versionName="7.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- OPTIONAL but makes Sentry-Android smarter -->
+11-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:6:5-67
+11-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:7:5-79
+12-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:8:5-81
+13-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:9:5-77
+14-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:10:5-65
+15-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:10:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:11:5-71
+16-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:11:22-68
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:12:5-80
+17-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:13:5-81
+18-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+19-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:14:5-82
+19-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:14:22-79
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+20-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:15:5-79
+20-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="com.vault.file" />
+21-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:16:5-54
+21-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:16:22-51
+22
+23    <permission
+23-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:18:5-20:47
+24        android:name="com.devbeans.io.chat.fileSharing"
+24-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:19:9-56
+25        android:protectionLevel="dangerous" />
+25-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:20:9-44
+26
+27    <queries>
+27-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:22:5-26:15
+28        <provider
+28-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:23:9-25:40
+29            android:authorities="com.dev.io.mdm.id_provider"
+29-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:24:13-61
+30            android:exported="false" />
+30-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:25:13-37
+31        <!-- Query Camera Packages -->
+32        <intent>
+32-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:12:9-14:18
+33            <action android:name="android.media.action.IMAGE_CAPTURE" />
+33-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:13:13-73
+33-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:13:21-70
+34        </intent> <!-- Query Open Document -->
+35        <intent>
+35-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:16:9-18:18
+36            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+36-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:17:13-79
+36-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:17:21-76
+37        </intent>
+38        <intent>
+38-->[androidx.camera:camera-extensions:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/62644fcfe913d7ab5b48868c994cbd9a/transformed/jetified-camera-extensions-1.2.0-alpha04/AndroidManifest.xml:23:9-25:18
+39            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+39-->[androidx.camera:camera-extensions:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/62644fcfe913d7ab5b48868c994cbd9a/transformed/jetified-camera-extensions-1.2.0-alpha04/AndroidManifest.xml:24:13-86
+39-->[androidx.camera:camera-extensions:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/62644fcfe913d7ab5b48868c994cbd9a/transformed/jetified-camera-extensions-1.2.0-alpha04/AndroidManifest.xml:24:21-83
+40        </intent>
+41        <intent>
+41-->[androidx.media:media:1.3.1] /home/manjaro/.gradle/caches/transforms-3/0eebf1fbd50ad36c61e5025b2df7fb51/transformed/media-1.3.1/AndroidManifest.xml:25:9-27:18
+42            <action android:name="android.media.browse.MediaBrowserService" />
+42-->[androidx.media:media:1.3.1] /home/manjaro/.gradle/caches/transforms-3/0eebf1fbd50ad36c61e5025b2df7fb51/transformed/media-1.3.1/AndroidManifest.xml:26:13-79
+42-->[androidx.media:media:1.3.1] /home/manjaro/.gradle/caches/transforms-3/0eebf1fbd50ad36c61e5025b2df7fb51/transformed/media-1.3.1/AndroidManifest.xml:26:21-76
+43        </intent>
+44    </queries>
+45
+46    <uses-permission android:name="android.permission.VIBRATE" />
+46-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:28:5-66
+46-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:28:22-63
+47
+48    <!--
+49         Have developers add this. We don't want AUDIO permission to be auto-added to
+50         apps that just want to take pictures.
+51    -->
+52    <!-- uses-permission android:name="android.permission.RECORD_AUDIO" / -->
+53    <uses-feature
+53-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:19:5-21:36
+54        android:name="android.hardware.camera"
+54-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:20:9-47
+55        android:required="false" />
+55-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:21:9-33
+56    <uses-feature
+56-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:22:5-24:36
+57        android:name="android.hardware.camera.autofocus"
+57-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:23:9-57
+58        android:required="false" />
+58-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:24:9-33
+59    <uses-feature
+59-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:25:5-27:36
+60        android:name="android.hardware.camera.front"
+60-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:26:9-53
+61        android:required="false" />
+61-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:27:9-33
+62    <uses-feature
+62-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:28:5-30:36
+63        android:name="android.hardware.microphone"
+63-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:29:9-51
+64        android:required="false" />
+64-->[com.otaliastudios:cameraview:2.7.2] /home/manjaro/.gradle/caches/transforms-3/70ad0a90e5a33687c567e8f95a939dca/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:30:9-33
+65
+66    <uses-permission android:name="android.permission.WAKE_LOCK" />
+66-->[com.github.hannesa2:paho.mqtt.android:3.6.0-beta1] /home/manjaro/.gradle/caches/transforms-3/7345a729889071530b3137b49fd87cc1/transformed/jetified-paho.mqtt.android-3.6.0-beta1/AndroidManifest.xml:11:5-68
+66-->[com.github.hannesa2:paho.mqtt.android:3.6.0-beta1] /home/manjaro/.gradle/caches/transforms-3/7345a729889071530b3137b49fd87cc1/transformed/jetified-paho.mqtt.android-3.6.0-beta1/AndroidManifest.xml:11:22-65
+67    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+67-->[androidx.biometric:biometric:1.1.0-alpha02] /home/manjaro/.gradle/caches/transforms-3/9bfe0f625e52d0cfb5c93c6851a182b4/transformed/biometric-1.1.0-alpha02/AndroidManifest.xml:24:5-72
+67-->[androidx.biometric:biometric:1.1.0-alpha02] /home/manjaro/.gradle/caches/transforms-3/9bfe0f625e52d0cfb5c93c6851a182b4/transformed/biometric-1.1.0-alpha02/AndroidManifest.xml:24:22-69
+68    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+68-->[androidx.biometric:biometric:1.1.0-alpha02] /home/manjaro/.gradle/caches/transforms-3/9bfe0f625e52d0cfb5c93c6851a182b4/transformed/biometric-1.1.0-alpha02/AndroidManifest.xml:27:5-74
+68-->[androidx.biometric:biometric:1.1.0-alpha02] /home/manjaro/.gradle/caches/transforms-3/9bfe0f625e52d0cfb5c93c6851a182b4/transformed/biometric-1.1.0-alpha02/AndroidManifest.xml:27:22-71
+69    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+69-->[androidx.tonyodev.fetch2:xfetch2:3.1.6] /home/manjaro/.gradle/caches/transforms-3/f128e4af821eecf82a981690c91d43fe/transformed/jetified-xfetch2-3.1.6/AndroidManifest.xml:12:5-76
+69-->[androidx.tonyodev.fetch2:xfetch2:3.1.6] /home/manjaro/.gradle/caches/transforms-3/f128e4af821eecf82a981690c91d43fe/transformed/jetified-xfetch2-3.1.6/AndroidManifest.xml:12:22-73
+70
+71    <application
+71-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:30:5-241:19
+72        android:name="com.devbeans.io.chat.app.MainApp"
+72-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:31:9-36
+73        android:allowBackup="false"
+73-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:32:9-36
+74        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+74-->[androidx.core:core:1.8.0] /home/manjaro/.gradle/caches/transforms-3/37b9dd07586967bc5a21b66b4b74c920/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+75        android:debuggable="true"
+76        android:extractNativeLibs="false"
+77        android:hardwareAccelerated="true"
+77-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:33:9-43
+78        android:icon="@mipmap/ic_launcher"
+78-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:34:9-43
+79        android:label="@string/app_name"
+79-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:35:9-41
+80        android:networkSecurityConfig="@xml/network_security_config"
+80-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:36:9-69
+81        android:requestLegacyExternalStorage="true"
+81-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:37:9-52
+82        android:roundIcon="@mipmap/ic_launcher_round"
+82-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:38:9-54
+83        android:supportsRtl="true"
+83-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:39:9-35
+84        android:theme="@style/Theme.Chat"
+84-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:40:9-42
+85        android:usesCleartextTraffic="false" >
+85-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:41:9-45
+86        <activity
+86-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:44:9-47:20
+87            android:name="com.devbeans.io.chat.activities.ImportExportActivity"
+87-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:45:13-60
+88            android:exported="false" >
+88-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:46:13-37
+89        </activity>
+90        <activity
+90-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:48:9-51:51
+91            android:name="com.devbeans.io.chat.activities.MessageDetailsActivity"
+91-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:49:13-62
+92            android:exported="false"
+92-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:50:13-37
+93            android:launchMode="singleInstance" />
+93-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:51:13-48
+94        <activity
+94-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:52:9-54:40
+95            android:name="com.devbeans.io.chat.activities.PdfViewerActivity"
+95-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:53:13-57
+96            android:exported="false" />
+96-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:54:13-37
+97        <activity
+97-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:55:9-57:40
+98            android:name="com.devbeans.io.chat.activities.ChatSettingsActivity"
+98-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:56:13-60
+99            android:exported="false" />
+99-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:57:13-37
+100        <activity
+100-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:58:9-60:40
+101            android:name="com.devbeans.io.chat.activities.PrivacyActivity"
+101-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:59:13-55
+102            android:exported="false" />
+102-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:60:13-37
+103
+104        <provider
+105            android:name="androidx.core.content.FileProvider"
+105-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:63:13-62
+106            android:authorities="com.devbeans.io.chat.provider"
+106-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:64:13-60
+107            android:exported="false"
+107-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:65:13-37
+108            android:grantUriPermissions="true" >
+108-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:66:13-47
+109            <meta-data
+109-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:67:13-69:58
+110                android:name="android.support.FILE_PROVIDER_PATHS"
+110-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:68:17-67
+111                android:resource="@xml/provider_paths" />
+111-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:69:17-55
+112        </provider>
+113
+114        <activity
+114-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:72:9-74:40
+115            android:name="com.devbeans.io.chat.activities.MediaSelectionActivity"
+115-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:73:13-62
+116            android:exported="false" />
+116-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:74:13-37
+117        <activity
+117-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:75:9-77:40
+118            android:name="com.devbeans.io.chat.activities.AddMemberActivity"
+118-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:76:13-57
+119            android:exported="false" />
+119-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:77:13-37
+120        <activity
+120-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:78:9-80:40
+121            android:name="com.devbeans.io.chat.activities.AutoLockSettingActivity"
+121-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:79:13-63
+122            android:exported="false" />
+122-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:80:13-37
+123        <activity
+123-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:81:9-83:40
+124            android:name="com.devbeans.io.chat.activities.ContactDetailActivity"
+124-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:82:13-61
+125            android:exported="false" />
+125-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:83:13-37
+126        <activity
+126-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:84:9-87:40
+127            android:name="com.devbeans.io.chat.verifypin.CreatePinActivity"
+127-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:85:13-56
+128            android:configChanges="orientation|screenSize"
+128-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:86:13-59
+129            android:exported="false" />
+129-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:87:13-37
+130        <activity
+130-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:88:9-90:40
+131            android:name="com.devbeans.io.chat.activities.RemoveViewActivity"
+131-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:89:13-58
+132            android:exported="false" />
+132-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:90:13-37
+133        <activity
+133-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:91:9-93:40
+134            android:name="com.devbeans.io.chat.activities.DisappearingMsgActivity"
+134-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:92:13-63
+135            android:exported="false" />
+135-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:93:13-37
+136        <activity
+136-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:94:9-96:40
+137            android:name="com.devbeans.io.chat.activities.QRScannerActivity"
+137-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:95:13-57
+138            android:exported="false" />
+138-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:96:13-37
+139        <activity
+139-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:97:9-101:52
+140            android:name="com.devbeans.io.chat.camera.CameraActivity"
+140-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:98:13-50
+141            android:configChanges="orientation|screenSize"
+141-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:99:13-59
+142            android:exported="false"
+142-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:100:13-37
+143            android:screenOrientation="portrait" />
+143-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:101:13-49
+144        <activity
+144-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:102:9-104:40
+145            android:name="com.devbeans.io.chat.camera.PicturePreviewActivity"
+145-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:103:13-58
+146            android:exported="false" />
+146-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:104:13-37
+147        <activity
+147-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:105:9-118:20
+148            android:name="com.devbeans.io.chat.activities.CustomSplashActivity"
+148-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:106:13-60
+149            android:configChanges="orientation|screenSize"
+149-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:107:13-59
+150            android:exported="true"
+150-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:108:13-36
+151            android:launchMode="singleTop" >
+151-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:109:13-43
+152
+153            <!-- android:theme="@style/SplashTheme" -->
+154            <!-- android:noHistory="true" -->
+155            <intent-filter>
+155-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:113:13-117:29
+156                <action android:name="android.intent.action.MAIN" />
+156-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:114:17-69
+156-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:114:25-66
+157
+158                <category android:name="android.intent.category.LAUNCHER" />
+158-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:116:17-77
+158-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:116:27-74
+159            </intent-filter>
+160        </activity>
+161        <activity
+161-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:119:9-129:20
+162            android:name="com.devbeans.io.chat.activities.ShareToActivity"
+162-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:120:13-55
+163            android:exported="true"
+163-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:121:13-36
+164            android:permission="com.devbeans.io.chat.fileSharing" >
+164-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:122:13-66
+165            <intent-filter android:autoVerify="true" >
+165-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:124:13-128:29
+165-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:124:28-53
+166                <action android:name="com.devbeans.io.chat.fileSharing.action" />
+166-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:125:17-82
+166-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:125:25-79
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:127:17-76
+168-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:127:27-73
+169            </intent-filter>
+170        </activity>
+171
+172        <meta-data
+172-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:131:9-133:99
+173            android:name="io.sentry.dsn"
+173-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:132:13-41
+174            android:value="https://6fc8af7154ce4849a57ab52eab9984e3@prive-sentry.devbeans.io/4" />
+174-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:133:13-96
+175        <!--
+176 Set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
+177           We recommend adjusting this value in production.
+178        -->
+179        <meta-data
+179-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:138:9-140:35
+180            android:name="io.sentry.traces.sample-rate"
+180-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:139:13-56
+181            android:value="1.0" />
+181-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:140:13-32
+182
+183        <activity
+183-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:142:9-144:40
+184            android:name="com.devbeans.io.chat.activities.ScreenShowingActivity"
+184-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:143:13-61
+185            android:exported="false" />
+185-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:144:13-37
+186        <activity
+186-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:145:9-147:40
+187            android:name="com.devbeans.io.chat.activities.EditProfileActivity"
+187-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:146:13-59
+188            android:exported="false" />
+188-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:147:13-37
+189        <activity
+189-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:148:9-152:52
+190            android:name="com.devbeans.io.chat.activities.MediaDetailsActivity"
+190-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:149:13-60
+191            android:configChanges="orientation|screenSize"
+191-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:150:13-59
+192            android:exported="false"
+192-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:151:13-37
+193            android:screenOrientation="portrait" />
+193-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:152:13-49
+194        <activity
+194-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:153:9-155:40
+195            android:name="com.devbeans.io.chat.activities.DetailsEditActivity"
+195-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:154:13-59
+196            android:exported="false" />
+196-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:155:13-37
+197        <activity
+197-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:156:9-158:40
+198            android:name="com.devbeans.io.chat.activities.MembersActivity"
+198-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:157:13-55
+199            android:exported="false" />
+199-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:158:13-37
+200        <activity
+200-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:159:9-161:40
+201            android:name="com.devbeans.io.chat.utils.revealable.ViewOnceMessageActivity"
+201-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:160:13-69
+202            android:exported="false" />
+202-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:161:13-37
+203        <activity
+203-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:162:9-164:40
+204            android:name="com.devbeans.io.chat.activities.ChatDetailsActivity"
+204-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:163:13-59
+205            android:exported="false" />
+205-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:164:13-37
+206        <activity
+206-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:165:9-171:58
+207            android:name="com.devbeans.io.chat.activities.ChatActivity"
+207-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:166:13-52
+208            android:configChanges="orientation|screenSize"
+208-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:167:13-59
+209            android:exported="false"
+209-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:168:13-37
+210            android:hardwareAccelerated="true"
+210-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:169:13-47
+211            android:parentActivityName="com.devbeans.io.chat.activities.MainActivity"
+211-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:170:13-66
+212            android:windowSoftInputMode="adjustResize" />
+212-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:171:13-55
+213        <activity
+213-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:172:9-174:40
+214            android:name="com.devbeans.io.chat.activities.NotificationActivity"
+214-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:173:13-60
+215            android:exported="false" />
+215-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:174:13-37
+216        <activity
+216-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:175:9-179:58
+217            android:name="com.devbeans.io.chat.activities.NewMessageActivity"
+217-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:176:13-58
+218            android:configChanges="orientation|screenSize"
+218-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:177:13-59
+219            android:exported="false"
+219-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:178:13-37
+220            android:windowSoftInputMode="adjustResize" />
+220-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:179:13-55
+221        <activity
+221-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:180:9-182:40
+222            android:name="com.devbeans.io.chat.activities.ArchiveActivity"
+222-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:181:13-55
+223            android:exported="false" />
+223-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:182:13-37
+224        <activity
+224-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:183:9-186:58
+225            android:name="com.devbeans.io.chat.activities.MainActivity"
+225-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:184:13-52
+226            android:exported="false"
+226-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:185:13-37
+227            android:windowSoftInputMode="adjustResize" />
+227-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:186:13-55
+228
+229        <receiver android:name="com.devbeans.io.chat.services.ExpirationListener" />
+229-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:188:9-65
+229-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:188:19-62
+230        <receiver
+230-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:189:9-196:20
+231            android:name="com.devbeans.io.chat.utils.NetworkReceiver"
+231-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:190:13-50
+232            android:enabled="true"
+232-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:191:13-35
+233            android:exported="false" >
+233-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:192:13-37
+234            <intent-filter>
+234-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:193:13-195:29
+235                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+235-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:194:17-79
+235-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:194:25-76
+236            </intent-filter>
+237        </receiver>
+238        <receiver
+238-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:197:9-204:20
+239            android:name="com.devbeans.io.chat.receiver.ExpiryReceiver"
+239-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:198:13-52
+240            android:enabled="true"
+240-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:199:13-35
+241            android:exported="false" >
+241-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:200:13-37
+242            <intent-filter>
+242-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:201:13-203:29
+243                <action android:name="com.dev.io.mdm.license" />
+243-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:202:17-65
+243-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:202:25-62
+244            </intent-filter>
+245        </receiver>
+246        <receiver
+246-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:205:9-213:20
+247            android:name="com.devbeans.io.chat.receiver.BootReceiver"
+247-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:206:13-50
+248            android:exported="false" >
+248-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:207:13-37
+249            <intent-filter>
+249-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:208:13-212:29
+250                <action android:name="android.intent.action.BOOT_COMPLETED" />
+250-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:209:17-79
+250-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:209:25-76
+251
+252                <category android:name="android.intent.category.DEFAULT" />
+252-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:127:17-76
+252-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:127:27-73
+253            </intent-filter>
+254        </receiver>
+255
+256        <provider
+257            android:name="androidx.core.content.FileProvider"
+257-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:63:13-62
+258            android:authorities="com.devbeans.io.chat.provider"
+258-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:64:13-60
+259            android:exported="false"
+259-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:65:13-37
+260            android:grantUriPermissions="true" >
+260-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:66:13-47
+261            <meta-data
+261-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:67:13-69:58
+262                android:name="android.support.FILE_PROVIDER_PATHS"
+262-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:68:17-67
+263                android:resource="@xml/provides_path" />
+263-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:69:17-55
+264        </provider>
+265
+266        <service
+266-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:225:9-228:40
+267            android:name="com.devbeans.io.chat.services.BackgroundService"
+267-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:226:13-55
+268            android:enabled="true"
+268-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:227:13-35
+269            android:exported="false" />
+269-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:228:13-37
+270        <service
+270-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:229:9-232:40
+271            android:name="com.devbeans.io.chat.services.ChatClearBackgroundService"
+271-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:230:13-64
+272            android:enabled="true"
+272-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:231:13-35
+273            android:exported="false" />
+273-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:232:13-37
+274        <service
+274-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:233:9-236:40
+275            android:name="com.devbeans.io.chat.services.SavingKeysService"
+275-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:234:13-55
+276            android:enabled="true"
+276-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:235:13-35
+277            android:exported="false" />
+277-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:236:13-37
+278        <service
+278-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:237:9-240:40
+279            android:name="com.devbeans.io.chat.services.KeyDeficiencyService"
+279-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:238:13-58
+280            android:enabled="true"
+280-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:239:13-35
+281            android:exported="false" />
+281-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:240:13-37
+282
+283        <activity
+283-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:22:9-25:68
+284            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+284-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:23:13-81
+285            android:screenOrientation="unspecified"
+285-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:24:13-52
+286            android:theme="@style/Theme.Transparent.ImagePicker" />
+286-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:25:13-65
+287        <activity
+287-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:26:9-29:72
+288            android:name="com.yalantis.ucrop.UCropActivity"
+288-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:27:13-60
+289            android:screenOrientation="portrait"
+289-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:28:13-49
+290            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+290-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:29:13-69
+291
+292        <provider
+292-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:31:9-39:20
+293            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+293-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:32:13-85
+294            android:authorities="com.devbeans.io.chat.imagepicker.provider"
+294-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:33:13-72
+295            android:exported="false"
+295-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:34:13-37
+296            android:grantUriPermissions="true" >
+296-->[com.github.dhaval2404:imagepicker:2.1] /home/manjaro/.gradle/caches/transforms-3/6199a8ecc770ad043e8acc16ce19e9db/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:35:13-47
+297            <meta-data
+297-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:67:13-69:58
+298                android:name="android.support.FILE_PROVIDER_PATHS"
+298-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:68:17-67
+299                android:resource="@xml/image_picker_provider_paths" />
+299-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:69:17-55
+300        </provider>
+301
+302        <service android:name="info.mqtt.android.service.MqttService" />
+302-->[com.github.hannesa2:paho.mqtt.android:3.6.0-beta1] /home/manjaro/.gradle/caches/transforms-3/7345a729889071530b3137b49fd87cc1/transformed/jetified-paho.mqtt.android-3.6.0-beta1/AndroidManifest.xml:14:9-73
+302-->[com.github.hannesa2:paho.mqtt.android:3.6.0-beta1] /home/manjaro/.gradle/caches/transforms-3/7345a729889071530b3137b49fd87cc1/transformed/jetified-paho.mqtt.android-3.6.0-beta1/AndroidManifest.xml:14:18-70
+303
+304        <activity
+304-->[pub.devrel:easypermissions:3.0.0] /home/manjaro/.gradle/caches/transforms-3/68108721566d49478681682e098bf039/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+305            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+305-->[pub.devrel:easypermissions:3.0.0] /home/manjaro/.gradle/caches/transforms-3/68108721566d49478681682e098bf039/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+306            android:exported="false"
+306-->[pub.devrel:easypermissions:3.0.0] /home/manjaro/.gradle/caches/transforms-3/68108721566d49478681682e098bf039/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+307            android:label=""
+307-->[pub.devrel:easypermissions:3.0.0] /home/manjaro/.gradle/caches/transforms-3/68108721566d49478681682e098bf039/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+308            android:theme="@style/EasyPermissions.Transparent" />
+308-->[pub.devrel:easypermissions:3.0.0] /home/manjaro/.gradle/caches/transforms-3/68108721566d49478681682e098bf039/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+309
+310        <provider
+310-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+311            android:name="androidx.startup.InitializationProvider"
+311-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+312            android:authorities="com.devbeans.io.chat.androidx-startup"
+312-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+313            android:exported="false" >
+313-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+314            <meta-data
+314-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+315                android:name="androidx.work.WorkManagerInitializer"
+315-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+316                android:value="androidx.startup" />
+316-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+317            <meta-data
+317-->[androidx.emoji2:emoji2:1.0.0] /home/manjaro/.gradle/caches/transforms-3/aa51084cd3db76c9061eb5ce99d0cdcb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+318                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+318-->[androidx.emoji2:emoji2:1.0.0] /home/manjaro/.gradle/caches/transforms-3/aa51084cd3db76c9061eb5ce99d0cdcb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+319                android:value="androidx.startup" />
+319-->[androidx.emoji2:emoji2:1.0.0] /home/manjaro/.gradle/caches/transforms-3/aa51084cd3db76c9061eb5ce99d0cdcb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+320            <meta-data
+320-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/manjaro/.gradle/caches/transforms-3/8423cbcacd087416298043832188c597/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+321                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+321-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/manjaro/.gradle/caches/transforms-3/8423cbcacd087416298043832188c597/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+322                android:value="androidx.startup" />
+322-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/manjaro/.gradle/caches/transforms-3/8423cbcacd087416298043832188c597/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+323        </provider>
+324
+325        <service
+325-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+326            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+326-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+327            android:directBootAware="false"
+327-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+328            android:enabled="@bool/enable_system_alarm_service_default"
+328-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+329            android:exported="false" />
+329-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+330        <service
+330-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+331            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+331-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+332            android:directBootAware="false"
+332-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+333            android:enabled="@bool/enable_system_job_service_default"
+333-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+334            android:exported="true"
+334-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+335            android:permission="android.permission.BIND_JOB_SERVICE" />
+335-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+336        <service
+336-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+337            android:name="androidx.work.impl.foreground.SystemForegroundService"
+337-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+338            android:directBootAware="false"
+338-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+339            android:enabled="@bool/enable_system_foreground_service_default"
+339-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+340            android:exported="false" />
+340-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+341
+342        <receiver
+342-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+343            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+343-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+344            android:directBootAware="false"
+344-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+345            android:enabled="true"
+345-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+346            android:exported="false" />
+346-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+347        <receiver
+347-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+348            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+348-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+349            android:directBootAware="false"
+349-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+350            android:enabled="false"
+350-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+351            android:exported="false" >
+351-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+352            <intent-filter>
+352-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+353                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+353-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+353-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+354                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+354-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+354-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+355            </intent-filter>
+356        </receiver>
+357        <receiver
+357-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+358            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+358-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+359            android:directBootAware="false"
+359-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+360            android:enabled="false"
+360-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+361            android:exported="false" >
+361-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+362            <intent-filter>
+362-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+363                <action android:name="android.intent.action.BATTERY_OKAY" />
+363-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+363-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+364                <action android:name="android.intent.action.BATTERY_LOW" />
+364-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+364-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+365            </intent-filter>
+366        </receiver>
+367        <receiver
+367-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+368            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+368-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+369            android:directBootAware="false"
+369-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+370            android:enabled="false"
+370-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+371            android:exported="false" >
+371-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+372            <intent-filter>
+372-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+373                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+373-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+373-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+374                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+374-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+374-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+375            </intent-filter>
+376        </receiver>
+377        <receiver
+377-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+378            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+378-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+379            android:directBootAware="false"
+379-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+380            android:enabled="false"
+380-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+381            android:exported="false" >
+381-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+382            <intent-filter>
+382-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:193:13-195:29
+383                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+383-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:194:17-79
+383-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:194:25-76
+384            </intent-filter>
+385        </receiver>
+386        <receiver
+386-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+387            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+387-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+388            android:directBootAware="false"
+388-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+389            android:enabled="false"
+389-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+390            android:exported="false" >
+390-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+391            <intent-filter>
+391-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+392                <action android:name="android.intent.action.BOOT_COMPLETED" />
+392-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:209:17-79
+392-->/media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/main/AndroidManifest.xml:209:25-76
+393                <action android:name="android.intent.action.TIME_SET" />
+393-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+393-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+394                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+394-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+394-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+395            </intent-filter>
+396        </receiver>
+397        <receiver
+397-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+398            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+398-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+399            android:directBootAware="false"
+399-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+400            android:enabled="@bool/enable_system_alarm_service_default"
+400-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+401            android:exported="false" >
+401-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+402            <intent-filter>
+402-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+403                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+403-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+403-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+404            </intent-filter>
+405        </receiver>
+406        <receiver
+406-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+407            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+407-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+408            android:directBootAware="false"
+408-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+409            android:enabled="true"
+409-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+410            android:exported="true"
+410-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+411            android:permission="android.permission.DUMP" >
+411-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+412            <intent-filter>
+412-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+413                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+413-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+413-->[androidx.work:work-runtime:2.7.1] /home/manjaro/.gradle/caches/transforms-3/c7ae4fa2edbcdf1276427eae80a467eb/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+414            </intent-filter>
+415        </receiver> <!-- 'android:authorities' must be unique in the device, across all apps -->
+416        <provider
+416-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:14:9-17:40
+417            android:name="io.sentry.android.core.SentryInitProvider"
+417-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:15:13-69
+418            android:authorities="com.devbeans.io.chat.SentryInitProvider"
+418-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:16:13-70
+419            android:exported="false" />
+419-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:17:13-37
+420        <provider
+420-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:18:9-22:39
+421            android:name="io.sentry.android.core.SentryPerformanceProvider"
+421-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:19:13-76
+422            android:authorities="com.devbeans.io.chat.SentryPerformanceProvider"
+422-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:20:13-77
+423            android:exported="false"
+423-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:21:13-37
+424            android:initOrder="200" />
+424-->[io.sentry:sentry-android-core:5.6.1] /home/manjaro/.gradle/caches/transforms-3/21e96f34314713ef918d649599891597/transformed/jetified-sentry-android-core-5.6.1/AndroidManifest.xml:22:13-36
+425
+426        <service
+426-->[androidx.room:room-runtime:2.4.3] /home/manjaro/.gradle/caches/transforms-3/288a7b4b4f6144824c69da825abcecc9/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+427            android:name="androidx.room.MultiInstanceInvalidationService"
+427-->[androidx.room:room-runtime:2.4.3] /home/manjaro/.gradle/caches/transforms-3/288a7b4b4f6144824c69da825abcecc9/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+428            android:directBootAware="true"
+428-->[androidx.room:room-runtime:2.4.3] /home/manjaro/.gradle/caches/transforms-3/288a7b4b4f6144824c69da825abcecc9/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+429            android:exported="false" />
+429-->[androidx.room:room-runtime:2.4.3] /home/manjaro/.gradle/caches/transforms-3/288a7b4b4f6144824c69da825abcecc9/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+430
+431        <uses-library
+431-->[androidx.camera:camera-extensions:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/62644fcfe913d7ab5b48868c994cbd9a/transformed/jetified-camera-extensions-1.2.0-alpha04/AndroidManifest.xml:29:9-31:40
+432            android:name="androidx.camera.extensions.impl"
+432-->[androidx.camera:camera-extensions:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/62644fcfe913d7ab5b48868c994cbd9a/transformed/jetified-camera-extensions-1.2.0-alpha04/AndroidManifest.xml:30:13-59
+433            android:required="false" />
+433-->[androidx.camera:camera-extensions:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/62644fcfe913d7ab5b48868c994cbd9a/transformed/jetified-camera-extensions-1.2.0-alpha04/AndroidManifest.xml:31:13-37
+434
+435        <service
+435-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:24:9-33:19
+436            android:name="androidx.camera.core.impl.MetadataHolderService"
+436-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:25:13-75
+437            android:enabled="false"
+437-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:26:13-36
+438            android:exported="false" >
+438-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:27:13-37
+439            <meta-data
+439-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:30:13-32:89
+440                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+440-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:31:17-103
+441                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+441-->[androidx.camera:camera-camera2:1.2.0-alpha04] /home/manjaro/.gradle/caches/transforms-3/1b37147bb14fb334e034370d76264cb2/transformed/jetified-camera-camera2-1.2.0-alpha04/AndroidManifest.xml:32:17-86
+442        </service>
+443
+444        <meta-data
+444-->[com.google.android.gms:play-services-basement:18.0.0] /home/manjaro/.gradle/caches/transforms-3/07bdd37a84be40bd04b411e8e8b72a28/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+445            android:name="com.google.android.gms.version"
+445-->[com.google.android.gms:play-services-basement:18.0.0] /home/manjaro/.gradle/caches/transforms-3/07bdd37a84be40bd04b411e8e8b72a28/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+446            android:value="@integer/google_play_services_version" />
+446-->[com.google.android.gms:play-services-basement:18.0.0] /home/manjaro/.gradle/caches/transforms-3/07bdd37a84be40bd04b411e8e8b72a28/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+447    </application>
+448
+449</manifest>

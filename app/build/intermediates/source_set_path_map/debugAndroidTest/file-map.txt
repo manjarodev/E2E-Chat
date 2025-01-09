@@ -1,0 +1,7 @@
+com.devbeans.io.chat.test.app-androidTest-0 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/generated/res/resValues/androidTest/debug
+com.devbeans.io.chat.test.app-androidTest-1 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/generated/res/rs/androidTest/debug
+com.devbeans.io.chat.test.app-mergeDebugAndroidTestResources-2 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.devbeans.io.chat.test.app-mergeDebugAndroidTestResources-3 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.devbeans.io.chat.test.app-merged_res-4 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/build/intermediates/merged_res/debugAndroidTest
+com.devbeans.io.chat.test.app-androidTest-5 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/androidTest/res
+com.devbeans.io.chat.test.app-androidTestDebug-6 /media/D/Projects/Devbeans/chatapp-apk-sprint_18/app/src/androidTestDebug/res

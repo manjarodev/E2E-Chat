@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_window_fill_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lv_pin_option_15_seconds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_pin_option_15_seconds"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_15_seconds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_pin_option_30_seconds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginVertical="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_pin_option_30_seconds"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_30_seconds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_pin_option_1_minute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_pin_option_1_minute"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_1_minute" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_pin_option_5_minute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_pin_option_5_minute"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_5_minutes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_pin_option_10_minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_pin_option_10_minutes"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_10_minutes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_pin_option_15_minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_pin_option_15_minutes"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_15_minutes" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

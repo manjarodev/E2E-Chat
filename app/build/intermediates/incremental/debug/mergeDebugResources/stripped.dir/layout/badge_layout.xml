@@ -1,0 +1,4 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_12sdp"
+    android:layout_height="@dimen/_12sdp"
+    android:background="@drawable/ic_badge" />

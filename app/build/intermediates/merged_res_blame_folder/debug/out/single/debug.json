@@ -1,0 +1,2390 @@
+[
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_dialog_new_contact_one.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dialog_new_contact_one.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_audio_img.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_audio_img.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_badge.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_badge.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_files.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_files.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_screen_showing.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_screen_showing.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_dialog_corners.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/dialog_corners.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_pin_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_pin_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_adjust_time_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/adjust_time_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_file_storage.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_file_storage.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_checkbox_selected.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_checkbox_selected.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_edit_2.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_edit_2.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_circle_tintable_padded_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/circle_tintable_padded_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_camera_mode.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_camera_mode.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_subtract.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_subtract.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_transparent_black_pill.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/transparent_black_pill.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_extra_light_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_extra_light_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_confidential.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_confidential.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_media.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_view_once_receive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_view_once_receive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_folders.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_folders.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_round.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_round.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_folders.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_folders.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_media_selection.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_media_selection.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_verify_pin.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_verify_pin.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_permissions_rationale_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/permissions_rationale_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_blocked_contact_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/blocked_contact_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_image.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_edittext_blue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_edittext_blue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_disappearing_option_selected.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_disappearing_option_selected.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_tucan.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_tucan.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_forward_one.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_forward_one.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_astronomus_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/astronomus_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_delete.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_delete.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_disappear.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_disappear.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_exit_group_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_exit_group_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_dialog_selector.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_dialog_selector.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_check_media.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_check_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_bold.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_bold.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_circle_drawable.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/circle_drawable.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_import_export.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_dsl_settings_toolbar.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/dsl_settings_toolbar.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_pdf_viewer.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_pdf_viewer.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_attachment_sent.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_attachment_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_disappearing_msg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_disappearing_msg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_added_qr.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_added_qr.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_chat_scribble_toast_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/chat_scribble_toast_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_download.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_download.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_text_tool_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_text_tool_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_import_list_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/import_list_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_item_import_list_selector.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_item_import_list_selector.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_v2_media_review_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_media_review_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_palette_black.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_palette_black.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_blur_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_blur_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_privacy_nav.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/privacy_nav.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_image_editor_hud_undo.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/image_editor_hud_undo.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_wallpaper.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_wallpaper.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_profile.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_profile.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_copy_24_tinted.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_copy_24_tinted.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_backup_red.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_backup_red.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_view_once_opened_receive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_view_once_opened_receive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_selector_group.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/selector_group.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_privacy_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/privacy_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_selector_file_storage.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/selector_file_storage.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_trash_white_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_trash_white_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_view_once_opened_sender.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_view_once_opened_sender.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_send_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_send_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_dailog_new_contact.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_new_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_unknown.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_unknown.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_green_beach.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_green_beach.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_menu_icon_layout.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/menu_icon_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_network_error.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_network_error.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_circle_touch_highlight_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/circle_touch_highlight_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_mediasend_video_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/mediasend_video_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_auto_lock_setting.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_auto_lock_setting.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_nickname_dailog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_nickname_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_video_home_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_video_home_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_astronomus_outline.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/astronomus_outline.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout-land_activity_camera.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout-land/activity_camera.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_image_editor_hud_sticker_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/image_editor_hud_sticker_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_bg_edit_select.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_bg_edit_select.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_round_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/round_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_v2_media_review_selected_item_overlay.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/v2_media_review_selected_item_overlay.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_create_pin_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/create_pin_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_add_exist.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_add_exist.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_select_24_tinted.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_select_24_tinted.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_video.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_video.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_file.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_file.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_audio_screen.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_audio_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_edittext_hollow.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_edittext_hollow.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_export_import_screen.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_export_import_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera_filter.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera_filter.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_2.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_2.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_regular.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_regular.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_wipe_chat_data.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_wipe_chat_data.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_change_pin_timer_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/change_pin_timer_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_slide_to_top.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/slide_to_top.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_import_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/import_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_piglet.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_piglet.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_main.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_wipe_agreement.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_wipe_agreement.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_chat_wallpaper_selection_adapter_item.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_wallpaper_selection_adapter_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_option_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/option_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_uncheck.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_uncheck.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_add_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_add_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_attachement_sent.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/attachement_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_paste.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_paste.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_confirm_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_confirm_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_camera_controls_portrait.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/camera_controls_portrait.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_notification.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_melon.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_melon.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_new_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_new_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_text_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_text_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_add_contact_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_add_contact_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_docs.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_docs.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_expire_timer_selector_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_expire_timer_selector_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chevron_left_black_8dp.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chevron_left_black_8dp.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_phone_select.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_phone_select.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_slide_fade_to_bottom.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/slide_fade_to_bottom.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/animator_reactions_scrubber_reveal.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/animator/reactions_scrubber_reveal.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_audio_view_small.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/audio_view_small.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_info_confidential.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_info_confidential.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_details_edit.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_details_edit.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_bg_edit_unselect.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_bg_edit_unselect.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_reactions_old_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/reactions_old_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_bottom_sheet_contact_choice.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_bottom_sheet_contact_choice.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_rounded_rectangle_secondary_18.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/rounded_rectangle_secondary_18.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_edit_one.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_edit_one.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_camera_capture_button_shrink.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/camera_capture_button_shrink.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_contacts.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_light_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_light_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_custom_outgoing_voice_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_custom_outgoing_voice_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_splash.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_test_gradient.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/test_gradient.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_splash_nav.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/splash_nav.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_edit.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_check_box.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_check_box.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_bottom_export_progress_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_bottom_export_progress_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_people.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_conversation_item_sent_audio.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/conversation_item_sent_audio.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_thin.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_thin.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/raw_image.jpg.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/raw/image.jpg"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_picture_preview.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_picture_preview.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_media.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_grey.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_grey.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_heart.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_heart.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_unselected_toggle.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/unselected_toggle.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_view_once_28.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_view_once_28.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_export.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_keyboard_arrow_left_grey600_24dp.webp.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_keyboard_arrow_left_grey600_24dp.webp"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_qrscanner.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_qrscanner.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_group_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_group_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_document.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_document.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_badge_layout.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/badge_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_circle_transparent_black_40.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/circle_transparent_black_40.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_sticker_outline_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_sticker_outline_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_blur.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_blur.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_image_screen.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_image_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_selector_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/selector_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_square_fab_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/square_fab_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_history.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_story_pill_button_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/story_pill_button_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_delay_fade_in.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/delay_fade_in.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_files.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_files.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_save_24_tinted.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_save_24_tinted.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_receive_message_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_receive_message_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_cancel_delete_dark.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_cancel_delete_dark.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_tooltip_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/tooltip_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_edit_tinted_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_edit_tinted_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_privacy.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_privacy.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_splash_logo_anim.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/splash_logo_anim.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_layout_pin_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/layout_pin_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_image_home_fragment_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_image_home_fragment_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_anonymous_indicator_new.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_anonymous_indicator_new.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_home.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera_outline.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera_outline.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_attachment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_attachment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_drink.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_drink.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_logout.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_vault_import_export.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_vault_import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_forward_24_tinted.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_forward_24_tinted.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_view_infinite_28.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_view_infinite_28.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_sunset.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_sunset.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/menu_menu_bottom_nav.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/menu/menu_bottom_nav.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_dailog_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chat_black.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chat_black.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_send_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_send_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_soccerball.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_soccerball.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_archive_home.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_archive_home.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_receive_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_receive_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_audio_filter.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_audio_filter.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_headset.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_headset.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_reply.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_reply.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_color_preview.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_color_preview.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_confirm_pin_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/confirm_pin_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_shape.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_shape.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_bold_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_bold_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/raw_lottie_play_pause.json.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/raw/lottie_play_pause.json"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_blue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_blue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_back_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_back_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_abstract_03.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_abstract_03.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_not_sent.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_not_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_import_export_gradient_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/import_export_gradient_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_extra_bold_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_extra_bold_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_rotate_outline_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_rotate_outline_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_camera_controls_landscape.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/camera_controls_landscape.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_warning.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_selector_dailog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_selector_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_slide_to_bottom.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/slide_to_bottom.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_members.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_members.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_audio_chat_home_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_audio_chat_home_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_video_player.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/video_player.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_owner.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_owner.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_balloon.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_balloon.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_disappear_nav.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/disappear_nav.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_info.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_audio_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/audio_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_voice_note_player_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/voice_note_player_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_chat_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_chat_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_outline_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_outline_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_splash_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/splash_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_file.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_file.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_blue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_blue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_semi_bold_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_semi_bold_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_round_white_bg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/round_white_bg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_disappear_clock.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_disappear_clock.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_profile_manage.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_profile_manage.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_retry_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_retry_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_football.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_football.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_circle_tintable.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/circle_tintable.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_audio_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_audio_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_toast.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_toast.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_links.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_links.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_astronomus_italic_outline.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/astronomus_italic_outline.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_audio.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_audio.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_input_button.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_input_button.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_extra_light.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_extra_light.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_info_agreement.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_info_agreement.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_draw_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_draw_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_chats.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_chats.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_confidentiality_receive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_confidentiality_receive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_home_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_home_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bottom_sheet_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_person_white_24dp.webp.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_person_white_24dp.webp"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_member.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_signal_context_menu_item_background_only.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/signal_context_menu_item_background_only.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_dog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_dog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_add.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_media_details.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_media_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_triangle_up.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_triangle_up.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_camera.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_camera.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_reply_24_tinted.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_reply_24_tinted.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_fox.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_fox.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_forward_two.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_forward_two.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chat_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chat_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_anonymous.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_anonymous.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_video.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_video.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_qr_code_2_black_24dp__3_.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_qr_code_2_black_24dp__3_.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_checked.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_checked.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_splash_bottom_anim.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/splash_bottom_anim.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera_switch.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera_switch.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_media.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_cancel_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_cancel_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_delivered.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_delivered.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_add.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_add.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_shades_of_grey.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_shades_of_grey.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_lock_open.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_lock_open.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_sq_36.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_sq_36.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_recording_layout.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/recording_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_edit_profile.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_marker_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_marker_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_confidential_tv.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_confidential_tv.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_nav_graph.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_qr_blue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_qr_blue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_pin_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_pin_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_popup_menu_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/popup_menu_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_download_in_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_download_in_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_chat_details.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_chat_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_backup.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_backup.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_notification_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_notification_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_progress_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_privacy.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_privacy.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_pin_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_pin_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_notify.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_notify.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_shareto_member.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_shareto_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_camerax_flash_toggle.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/camerax_flash_toggle.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_flash_auto_32.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/flash_auto_32.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_doc.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_doc.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_list_item_contact_choice.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/list_item_contact_choice.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_share_tinted_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_share_tinted_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_keyboard.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_keyboard.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_place_holder_round.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_place_holder_round.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_menu_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_menu_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_mic_solid_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_mic_solid_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_pin_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_pin_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_flash_auto.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_flash_auto.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_shrink_fade_out.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/shrink_fade_out.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_save_36.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_save_36.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_rounded_rectangle_secondary_dark.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/rounded_rectangle_secondary_dark.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_extra_bold.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_extra_bold.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_signal_context_menu_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/signal_context_menu_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_cat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_cat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_verify_scan_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/verify_scan_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_bullet.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_bullet.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_dinosour.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_dinosour.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_info_tinted_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_info_tinted_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_image.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_v2_media_review_selected_item.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_media_review_selected_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_notification_setting.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_notification_setting.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_add_attach_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_add_attach_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_back.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_signal_context_menu_item_background_bottom.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/signal_context_menu_item_background_bottom.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_add_member.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_add_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_draw_36.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_draw_36.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_camera.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_spinner_text.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/spinner_text.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_close.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_circle_transparent_black_60.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/circle_transparent_black_60.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_notify.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_notify.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_video_screen.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_video_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_container.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_container.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_account_mbl.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_account_mbl.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_import_export.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_chat_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_chat_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_block.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_block.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/xml_network_security_config.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_import.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_import.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_flash_icon.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_flash_icon.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_sha_la_la.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_sha_la_la.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_selector_manage_profile.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/selector_manage_profile.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_exo_icon_play_ultramarine.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/exo_icon_play_ultramarine.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_disappear_notify.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_disappear_notify.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_profile.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_profile.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_disappearing_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/disappearing_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_animation_toggle_out.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/animation_toggle_out.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_search_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_search_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_delete.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_dailog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_btn_block.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_btn_block.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_disappear_msg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_disappear_msg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_update_nickname_dailog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_update_nickname_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_qr_code_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_qr_code_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_image.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_wallpaper_preview.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_wallpaper_preview.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_arrow_left_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_arrow_left_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_triangle_down.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_triangle_down.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_continue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_continue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_block_dailog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_block_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/xml_data_extraction_rules.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/color_chat_button_secondary_text_selector.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/color/chat_button_secondary_text_selector.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_blue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_blue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_profile_outline_40.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_profile_outline_40.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_delete_chat_pin.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_delete_chat_pin.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_square_tintable.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/square_tintable.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_fade_scale_in.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/fade_scale_in.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_app_settings_expire_timer.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/app_settings_expire_timer.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_verify_pin_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_verify_pin_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_contact.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_network_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/network_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_undo_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_undo_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_audio_wave_thumb.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/audio_wave_thumb.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/raw_loading_blocks.json.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/raw/loading_blocks.json"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_image.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_delete_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_delete_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_crop_rotate_36.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_crop_rotate_36.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_fade_scale_out.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/fade_scale_out.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_surfboard.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_surfboard.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_contact_detail.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_contact_detail.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_tick.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_tick.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chevron_up.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chevron_up.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_copy.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/animator_reactions_scrubber_hide.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/animator/reactions_scrubber_hide.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_image_filter.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_image_filter.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_wipe_chat_data.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_wipe_chat_data.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/transition_avatar_enter_transition.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/transition/avatar_enter_transition.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_chat_color_selection_adapter_item.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_color_selection_adapter_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_medium_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_medium_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_sloth.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_sloth.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_import_export_chat_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_import_export_chat_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_emoji.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_emoji.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_group_member.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_group_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_image_editor_hud_draw.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/image_editor_hud_draw.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_image_editor_hud_blur_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/image_editor_hud_blur_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_confidential.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_confidential.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_add_media.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/add_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_seen.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_seen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_crop_unlock_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_crop_unlock_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_anonymous_indicator.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_anonymous_indicator.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_chat_wallpaper.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_chat_wallpaper.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_camerax_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/camerax_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera_new.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera_new.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_new.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_new.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_medium.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_medium.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_cancel_icon.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_cancel_icon.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_image_editor_hud_clear_all_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/image_editor_hud_clear_all_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chat_palette.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chat_palette.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_list_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_list_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_edit.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_edit.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_archive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_1.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_1.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_sandbox_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_sandbox_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_blocklist.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_blocklist.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_cancel_flash.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_cancel_flash.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_abstract_02.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_abstract_02.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_astronomus_regular.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/astronomus_regular.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_empty_chat_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_empty_chat_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_line.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_line.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_semi_bold.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_semi_bold.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_image_editor_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/image_editor_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_book.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_book.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_signal_context_menu_item.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/signal_context_menu_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_compose_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/compose_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_camera_capture_button_grow.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/camera_capture_button_grow.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_profile_manage.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_profile_manage.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_text_chat_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_text_chat_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_signal_context_menu_item_background_middle.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/signal_context_menu_item_background_middle.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_blur_chat_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_blur_chat_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_dowload_view_once.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_dowload_view_once.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_destroy.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_destroy.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_forward.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_forward.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_fade_in.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_cancel_delete.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_cancel_delete.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_chat_color_selection_bg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/chat_color_selection_bg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_confidential.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_confidential.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_agreement_wipe.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_agreement_wipe.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_signal_context_menu_item_background_top.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/signal_context_menu_item_background_top.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_link.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_link.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_triangle_right.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_triangle_right.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_delete_tinted_24.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_delete_tinted_24.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_thin_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_thin_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_archive_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_archive_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_custom_incoming_voice_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_custom_incoming_voice_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_share_to.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_share_to.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_notification.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_bottom_import_progress_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_bottom_import_progress_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_qr_code_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/qr_code_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_pig.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_pig.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_emoji_text_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/emoji_text_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_chevron_right_black_8dp.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_chevron_right_black_8dp.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_import_export.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_briefcase.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_briefcase.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_light.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_light.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_video_editor_hud.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/video_editor_hud.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_add_contact.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_add_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_contact_blue.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_contact_blue.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_dailog_block.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_block.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_abstract_01.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_abstract_01.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_launcher.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_camera.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/camera.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_conversation_reaction_overlay_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/conversation_reaction_overlay_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_pause_media.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_pause_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_edittext.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_group_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_group_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_search_bar.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_play.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_auto_lock_nav.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/auto_lock_nav.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_checkbox.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_checkbox.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_add_contact_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_add_contact_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_sticker_outline_chat_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_sticker_outline_chat_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_read_receipts_details.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_read_receipts_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_message_details.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_message_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_close_black.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_close_black.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_options.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_options.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_audio_chat_home_fragment_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_audio_chat_home_fragment_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_video.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_video.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_color_indicator_circle_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/color_indicator_circle_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera_red.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera_red.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_import_export.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_image_editor_hud_text.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/image_editor_hud_text.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_chat_wallpaper_activity.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_wallpaper_activity.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_delete_chat_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_delete_chat_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_expire_timer_select_dialog.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_expire_timer_select_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_draw_chat_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_draw_chat_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_gradient_pinky.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/gradient_pinky.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_thumb_selector.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/thumb_selector.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_lock.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_tooltip.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/tooltip.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_pin_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/pin_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/navigation_chat_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/navigation/chat_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_audio.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_audio.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_push_pin.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_push_pin.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_remove.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_remove.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_file_message.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_file_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_arrow_right_16.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_arrow_right_16.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_export_done.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_export_done.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_progress_bg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/progress_bg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_v2_chat_media_image_editor_hud.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_chat_media_image_editor_hud.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_contact_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_contact_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_black_italic.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_black_italic.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_celebration.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_celebration.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_clock_adjust_screen.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/clock_adjust_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_done_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_done_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_disappearing_option_unselected.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_disappearing_option_unselected.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_splash_bg_sec.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_splash_bg_sec.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/raw_anim_key_gen.json.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/raw/anim_key_gen.json"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_ghost.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_ghost.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/xml_provider_paths.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_round_chat_edit_text_bg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/round_chat_edit_text_bg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_view_once.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_view_once.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_plus_20.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_plus_20.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_auto_lock_setting_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/auto_lock_setting_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_member.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_disappearing_option.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_disappearing_option.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_dailog_settings.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_dailog_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_slide_from_top.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/slide_from_top.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_send_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_send_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_slide_from_bottom.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/slide_from_bottom.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_expiry_tooltip_background.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/expiry_tooltip_background.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_camera_outline_sec.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_camera_outline_sec.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_chat_context_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_context_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_fade_out.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_button_cancel.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_button_cancel.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/menu_home_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/menu/home_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_agreement.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_agreement.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_checkbox_selector.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/checkbox_selector.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_create_pin.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_create_pin.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_image_home_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_image_home_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_img_avatar.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/img_avatar.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_pause.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/font_montserrat_black.ttf.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/font/montserrat_black.ttf"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_file.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_file.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_export_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/export_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_delete_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_delete_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_archive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_confidentiality_sent.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_confidentiality_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_import_export_dialog_option.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/import_export_dialog_option.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_video_filter.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_video_filter.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_view_once_sender.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_view_once_sender.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_archive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_receive_view_once.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_view_once.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_crop_lock_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_crop_lock_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_badge.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_badge.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_microphone_recorder_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/microphone_recorder_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_custom_dailog_add_contact.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_add_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_archive_24dp.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_archive_24dp.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file_filter.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file_filter.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_fragment_links.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_links.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_file.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_file.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_item_message_sent_new.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_new.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_qr_code.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_qr_code.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_unarchive_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_unarchive_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/xml_provides_path.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/xml/provides_path.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_search.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_flip_outline_chat.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_flip_outline_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_profile_manage_white.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_profile_manage_white.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_house.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_house.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_unpin_menu.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_unpin_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_conversation_reaction_scrubber.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/conversation_reaction_scrubber.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_archive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_media_share_details.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_media_share_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_lock_audio.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_lock_audio.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_bg_input.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_wipe_chat_data.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_wipe_chat_data.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_triangle_left.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_triangle_left.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_un_archive.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_un_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_group_outline_40.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_group_outline_40.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_avatar_incognito.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_avatar_incognito.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/color_story_pill_text_color.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/color/story_pill_text_color.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_audio_view_circle.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/audio_view_circle.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_ic_width_slider_bg.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/ic_width_slider_bg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_v2_media_image_editor_text_entry_fragment.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_media_image_editor_text_entry_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_expiry_tooltip.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/expiry_tooltip.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_media_preview_exoplayer_layout.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/media_preview_exoplayer_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_activity_remove_view.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_remove_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/drawable_track_selector.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/drawable/track_selector.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/anim_animation_toggle_in.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/anim/animation_toggle_in.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-merged_res-87:/layout_view_once_message_activity.xml.flat",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/view_once_message_activity.xml"
+    }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <NumberPicker
+        android:id="@+id/custom_expire_timer_selector_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_color"
+        android:layout_marginEnd="8dp"
+        app:colorControlNormal="@color/white"
+        android:textColor="@color/white"
+        android:theme="@style/DefaultNumberPickerTheme"/>
+
+    <NumberPicker
+        android:id="@+id/custom_expire_timer_selector_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/white"
+        app:colorControlNormal="@color/white"
+        android:textColorPrimary="@color/white"
+        android:background="@color/transparent_color"
+        android:theme="@style/DefaultNumberPickerTheme"/>
+
+</merge>

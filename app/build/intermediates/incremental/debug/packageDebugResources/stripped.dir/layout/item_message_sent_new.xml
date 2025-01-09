@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_3sdp">
+
+    <!-- There are total five view here
+          Sequentially looking
+          1= Text
+          2= Image
+          3= Video
+          4= Audio
+          5= Video -->
+
+
+    <RelativeLayout
+        android:id="@+id/text_sendingTextMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/text_outgoing_layout_bubble_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_59sdp"
+            android:background="@drawable/bg_send_message"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_12sdp">
+
+            <LinearLayout
+                android:id="@+id/layout_forwarded_text_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/messageText0"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_forwarded"
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:alpha="0.6"
+                    android:src="@drawable/ic_reply" />
+
+                <TextView
+                    android:id="@+id/tv_forwarded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:alpha="0.6"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:text="@string/forwarded"
+                    android:textColor="@color/black_variation_50"
+                    android:textSize="@dimen/_9ssp"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_forwarded"
+                    app:layout_constraintStart_toEndOf="@id/iv_forwarded"
+                    app:layout_constraintTop_toTopOf="@id/iv_forwarded"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text_time_and_tick_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/messageText0"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_3sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/messageText0">
+
+                <TextView
+                    android:id="@+id/editedText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:singleLine="true"
+                    android:text="Edited "
+                    android:textColor="@color/black_variation_50"
+                    android:textSize="@dimen/_8ssp"
+                    android:visibility="gone"
+                    tools:ignore="SpUsage" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_textview_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/time"
+                        android:textColor="@color/deep_black"
+                        android:textSize="@dimen/_8ssp"
+                        tools:ignore="SpUsage" />
+
+                    <ImageView
+
+                        android:id="@+id/text_text_sendTick"
+                        android:layout_width="@dimen/_14sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:layout_gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/ic_tick"
+                        android:visibility="visible" />
+
+                    <ImageView
+
+                        android:id="@+id/text_disappear_sent"
+                        android:layout_width="@dimen/_14sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:layout_gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/ic_disappear_msg"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <com.vanniktech.emoji.EmojiTextView
+                android:id="@+id/messageText0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="left"
+                android:autoLink="web"
+                android:textColorLink="@color/old_blue"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="@dimen/_1ssp"
+                android:paddingTop="8dp"
+                android:text="cbcbyubceyyeveuwueyevyeyevyevyceyvceye"
+                android:textColor="@color/deep_black"
+                android:textSize="@dimen/_12ssp"
+                app:emojiSize="@dimen/_22sdp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_forwarded_text_sent"/>
+
+
+
+            <TextView
+                android:id="@+id/messageText0_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/astronomus_regular"
+                android:gravity="left"
+                android:drawablePadding="@dimen/_5sdp"
+                android:textColorLink="@color/faded_black"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="@dimen/_1ssp"
+                android:paddingTop="8dp"
+                android:visibility="gone"
+                android:text="@string/confidential_message"
+                android:textColor="@color/deep_black"
+                android:textSize="@dimen/_12ssp"
+                app:emojiSize="@dimen/_22sdp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_forwarded_text_sent"
+                app:drawableStartCompat="@drawable/ic_confidentiality_sent" />
+
+            <LinearLayout
+                android:id="@+id/text_time_and_tick_layout_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/messageText0"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_3sdp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/messageText0_con">
+
+                <TextView
+                    android:id="@+id/editedText_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginEnd="@dimen/_2sdp"
+
+                    android:fontFamily="@font/montserrat_medium"
+                    android:singleLine="true"
+                    android:text="Edited "
+                    android:textColor="@color/black_variation_50"
+                    android:textSize="@dimen/_8ssp"
+                    android:visibility="gone"
+                    tools:ignore="SpUsage" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_textview_time_con"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/time"
+                        android:textColor="@color/deep_black"
+                        android:textSize="@dimen/_8ssp"
+                        tools:ignore="SpUsage" />
+
+                    <ImageView
+
+                        android:id="@+id/text_text_sendTick_con"
+                        android:layout_width="@dimen/_14sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:layout_gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/ic_tick"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

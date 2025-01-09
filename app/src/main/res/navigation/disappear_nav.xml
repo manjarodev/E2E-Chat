@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/disappear_nav.xml"
+    app:startDestination="@id/ChatDisappearFragment">
+
+
+    <fragment
+        android:id="@+id/ChatDisappearFragment"
+        android:name="com.devbeans.io.chat.fragments.DisappearingFragment"
+        tools:layout="@layout/disappearing_fragment"/>
+
+</navigation>

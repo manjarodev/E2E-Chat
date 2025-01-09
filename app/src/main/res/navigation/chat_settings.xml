@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat_settings"
+    app:startDestination="@id/ChatSettingsFragment">
+
+    <fragment
+        android:id="@+id/ChatSettingsFragment"
+        android:name="com.devbeans.io.chat.fragments.ChatSettingsFragment"
+        tools:layout="@layout/fragment_chat_settings">
+
+        <action
+            android:id="@+id/action_ChatSettingsFragment_to_wallpaperChatFragment"
+            app:destination="@id/wallpaperChatFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+        <action
+            android:id="@+id/action_ChatSettingsFragment_to_wipeChatDataFragment"
+            app:destination="@id/wipeChatDataFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wallpaperChatFragment"
+        android:name="com.devbeans.io.chat.fragments.WallpaperChatFragment"
+        tools:layout="@layout/fragment_chat_wallpaper">
+
+        <action
+            android:id="@+id/action_wallpaperChatFragment_to_wallpaperPreviewFragment"
+            app:destination="@id/wallpaperPreviewFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/wallpaperPreviewFragment"
+        android:name="com.devbeans.io.chat.fragments.PreviewWallpaperFragment"
+        tools:layout="@layout/fragment_wallpaper_preview">
+        <!--        <action-->
+        <!--            android:id="@+id/action_mediaCaptureFragment_to_mediaGalleryFragment"-->
+        <!--            app:destination="@id/mediaGalleryFragment" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_mediaCaptureFragment_to_textStoryPostCreationFragment"-->
+        <!--            app:destination="@id/textStoryPostCreationFragment"-->
+        <!--            app:enterAnim="@anim/slide_from_end"-->
+        <!--            app:exitAnim="@null"-->
+        <!--            app:popEnterAnim="@null"-->
+        <!--            app:popExitAnim="@anim/slide_to_end" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/verifyPinSettingsFragment"
+        android:name="com.devbeans.io.chat.fragments.VerifyPinFragment"
+        tools:layout="@layout/fragment_verify_pin_settings">
+        <action
+            android:id="@+id/action_verifyPinSettingsFragment_to_agreementSettings"
+            app:destination="@id/agreementSettings"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wipeChatDataFragment"
+        android:name="com.devbeans.io.chat.fragments.WipeChatDataFragment"
+        tools:layout="@layout/fragment_wipe_chat_data">
+        <action
+            android:id="@+id/action_wipeChatDataFragment_to_agreementSettings"
+            app:destination="@id/verifyPinSettingsFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+        <action
+            android:id="@+id/action_wipeChatDataFragment_to_deleteSettings"
+            app:destination="@id/deleteSettings"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/agreementSettings"
+        android:name="com.devbeans.io.chat.fragments.AgreementWipeFragment"
+        tools:layout="@layout/fragment_agreement_wipe">
+
+        <action
+            android:id="@+id/action_agreementSettings_to_deleteSettings"
+            app:destination="@id/deleteSettings"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/deleteSettings"
+        android:name="com.devbeans.io.chat.fragments.DeleteFragment"
+        tools:layout="@layout/fragment_delete">
+
+    </fragment>
+
+</navigation>

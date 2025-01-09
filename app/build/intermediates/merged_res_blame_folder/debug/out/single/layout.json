@@ -1,0 +1,606 @@
+[
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/permissions_rationale_dialog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/permissions_rationale_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_verify_pin_settings.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_verify_pin_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_delete.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_delete.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_contact_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_contact_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_screen_showing.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_screen_showing.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_new.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_new.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_chat_wallpaper.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_chat_wallpaper.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/attachement_sent.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/attachement_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/dsl_settings_toolbar.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/dsl_settings_toolbar.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_docs.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_docs.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/qr_code_dialog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/qr_code_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_image_screen.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_image_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_edit_profile.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_dailog_block.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_block.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_confidential.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_confidential.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/blocked_contact_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/blocked_contact_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/video_editor_hud.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/video_editor_hud.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_main.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/mediasend_video_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/mediasend_video_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_video.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_video.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_disappearing_msg.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_disappearing_msg.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_image.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_new.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_new.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_video_screen.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_video_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_pdf_viewer.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_pdf_viewer.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_wipe_chat_data.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_wipe_chat_data.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/badge_layout.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/badge_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_nickname_dailog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_nickname_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_media_selection.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_media_selection.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_view_once.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_view_once.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/video_player.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/video_player.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/v2_media_review_selected_item.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_media_review_selected_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/camerax_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/camerax_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_import_export.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_selector_dailog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_selector_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/create_pin_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/create_pin_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_links.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_links.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/disappearing_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/disappearing_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_dailog_new_contact.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_new_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/v2_media_image_editor_text_entry_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_media_image_editor_text_entry_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_view_once.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_view_once.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_file.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_file.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_contacts.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_media_details.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_media_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_document.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_document.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_details_edit.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_details_edit.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/option_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/option_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_create_pin.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_create_pin.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/v2_chat_media_image_editor_hud.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_chat_media_image_editor_hud.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_members.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_members.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_update_nickname_dailog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_update_nickname_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/emoji_text_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/emoji_text_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_custom_outgoing_voice_message.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_custom_outgoing_voice_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_folders.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_folders.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_new_message.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_new_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_links.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_links.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_member.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/import_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/import_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_file_storage.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_file_storage.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_files.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_files.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_remove_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_remove_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_block_dailog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_block_dailog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_dailog_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/layout_pin_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/layout_pin_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/camera_controls_portrait.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/camera_controls_portrait.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/v2_media_review_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/v2_media_review_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_picture_preview.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_picture_preview.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/list_item_contact_choice.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/list_item_contact_choice.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_home.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/chat_wallpaper_selection_adapter_item.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_wallpaper_selection_adapter_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_shareto_member.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_shareto_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_bottom_import_progress_dialog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_bottom_import_progress_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/image_editor_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/image_editor_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/import_export_dialog_option.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/import_export_dialog_option.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/media_preview_exoplayer_layout.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/media_preview_exoplayer_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_group_member.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_group_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_auto_lock_setting.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_auto_lock_setting.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_video.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_video.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_share_to.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_share_to.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/splash_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/splash_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_media.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/privacy_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/privacy_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_archive.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_group_settings.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_group_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_privacy.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_privacy.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_audio.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_audio.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_confidential.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_confidential.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_wallpaper_preview.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_wallpaper_preview.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_dailog_add_contact.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dailog_add_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_splash.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_media.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_media.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_list_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_list_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/progress_dialog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_chat_details.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_chat_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_contact.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_expire_timer_select_dialog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_expire_timer_select_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_contact_detail.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_contact_detail.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_agreement_wipe.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_agreement_wipe.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_dailog_settings.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_dailog_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_image.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_badge.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_badge.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/network_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/network_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_menu.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_files.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_files.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_verify_pin.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_verify_pin.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_message_details.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_message_details.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/chat_color_selection_adapter_item.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_color_selection_adapter_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_notification.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_archive.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_archive.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_chat_settings.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_chat_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_chat.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_expire_timer_selector_view.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_expire_timer_selector_view.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_bottom_sheet_contact_choice.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_bottom_sheet_contact_choice.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_qrscanner.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_qrscanner.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/expiry_tooltip.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/expiry_tooltip.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/export_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/export_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/auto_lock_setting_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/auto_lock_setting_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_camera_mode.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_camera_mode.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/camera_controls_landscape.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/camera_controls_landscape.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_folders.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_folders.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/adjust_time_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/adjust_time_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_toast.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_toast.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_file.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_file.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_settings.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/chat_context_menu.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/chat_context_menu.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/conversation_reaction_scrubber.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/conversation_reaction_scrubber.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_sent_audio.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_sent_audio.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/change_pin_timer_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/change_pin_timer_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_audio_screen.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_audio_screen.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_blocklist.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_blocklist.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/spinner_text.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/spinner_text.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_notify.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_notify.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_message_receive_image.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_message_receive_image.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/signal_context_menu_item.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/signal_context_menu_item.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_chats.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_chats.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_dialog_new_contact_one.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_dialog_new_contact_one.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_bottom_export_progress_dialog.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_bottom_export_progress_dialog.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/import_list_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/import_list_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/item_custom_incoming_voice_message.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/item_custom_incoming_voice_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/menu_icon_layout.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/menu_icon_layout.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_camera.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/activity_add_member.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/activity_add_member.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/custom_delete_message.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/custom_delete_message.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/confirm_pin_fragment.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/confirm_pin_fragment.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_import_export.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_import_export.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_container.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_container.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_chat_settings.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_chat_settings.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/fragment_profile_manage.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/fragment_profile_manage.xml"
+    },
+    {
+        "merged": "com.devbeans.io.chat.app-mergeDebugResources-86:/layout/tooltip.xml",
+        "source": "com.devbeans.io.chat.app-main-89:/layout/tooltip.xml"
+    }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.LinksFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_links"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvTextNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/astronomus_regular"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/links_empty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11ssp"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="emoji_category_recent" format="reference"/>
+    <attr name="emoji_category_people" format="reference"/>
+    <attr name="emoji_category_nature" format="reference"/>
+    <attr name="emoji_category_foods"  format="reference"/>
+    <attr name="emoji_category_activity" format="reference"/>
+    <attr name="emoji_category_places" format="reference"/>
+    <attr name="emoji_category_objects" format="reference"/>
+    <attr name="emoji_category_symbols" format="reference"/>
+    <attr name="emoji_category_flags" format="reference"/>
+    <attr name="emoji_category_emoticons" format="reference"/>
+    <attr name="theme_type" format="string"/>
+    <declare-styleable name="CameraXFlashState">
+        <attr name="state_flash_auto" format="boolean" />
+        <attr name="state_flash_off" format="boolean" />
+        <attr name="state_flash_on" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CameraButtonView">
+        <attr name="imageCaptureSize" format="dimension" />
+        <attr name="recordSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CameraView">
+        <attr name="camera" format="integer"/>
+        <attr name="scaleType"/>
+        <attr format="enum" name="lensFacing">
+            <enum name="none" value="0"/>
+            <enum name="front" value="1"/>
+            <enum name="back" value="2"/>
+        </attr>
+        <attr format="enum" name="captureMode">
+            <enum name="image" value="0"/>
+            <enum name="video" value="1"/>
+            <enum name="mixed" value="2"/>
+        </attr>
+        <attr format="enum" name="flash">
+            <enum name="auto" value="1"/>
+            <enum name="on" value="2"/>
+            <enum name="off" value="4"/>
+        </attr>
+
+        <attr format="boolean" name="pinchToZoomEnabled"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="VideoThumbnailsRangeSelectorView">
+        <attr name="thumbWidth" format="dimension" />
+        <attr name="thumbColorEdited" format="color" />
+        <attr name="thumbColor" format="color" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="color" />
+        <attr name="thumbTouchRadius" format="dimension" />
+        <attr name="thumbHintTextSize" format="dimension" />
+        <attr name="thumbHintTextColor" format="color" />
+        <attr name="thumbHintBackgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ShapeScrim">
+        <attr name="shape" format="string"/>
+        <attr name="radius" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="AudioView">
+        <attr name="foregroundTintColor" format="color" />
+        <attr name="backgroundTintColor" format="color" />
+        <attr name="waveformThumbTint" format="color" />
+        <attr name="waveformPlayedBarsColor" format="color" />
+        <attr name="waveformUnplayedBarsColor" format="color" />
+        <attr name="audioView_showSeekBar" format="boolean" />
+        <attr name="progressAndPlayTint" format="color" />
+        <attr name="autoRewind" format="boolean" />
+        <attr name="audioView_mode" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="small" value="1" />
+            <enum name="draft" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="GradientOutlineView">
+        <attr name="gradientOutlineStrokeWidth" format="dimension" />
+        <attr name="gradientOutlineCornerRadius" format="dimension" />
+        <attr name="gradientOutlineStartColor" format="color" />
+        <attr name="gradientOutlineCenterColor" format="color" />
+        <attr name="gradientOutlineEndColor" format="color" />
+        <attr name="gradientOutlineOrientation" format="enum">
+            <enum name="left_to_right" value="0" />
+            <enum name="top_to_bottom" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PinEntryView">
+        <attr name="pinEntryMargin" format="dimension" />
+        <attr name="pinEntryWidth" format="dimension" />
+        <attr name="pinEntryFocusedOutline" format="reference" />
+        <attr name="pinEntryUnfocusedOutline" format="reference" />
+        <attr name="pinEntryCursorDrawable" format="reference" />
+        <attr name="pinEntryCount" format="integer" />
+        <attr name="pinEntryType" format="enum">
+            <enum name="number" value="0" />
+            <enum name="passwordNumber" value="1" />
+            <enum name="passwordText" value="2" />
+        </attr>
+
+        <attr name="pinEntryTextColor" format="color" />
+    </declare-styleable>
+
+
+
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_item_radius">5dp</dimen>
+    <dimen name="pv_pin_view_item_size">48dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <style name="PinWidget"/>
+    <style name="PinWidget.PinView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textCursorDrawable">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandle">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleLeft">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleRight">@drawable/pv_invisible_image</item>
+    </style>
+    <declare-styleable name="PinView">
+        <attr format="integer" name="itemCount"/>
+        <attr format="dimension" name="itemWidth"/>
+        <attr format="dimension" name="itemHeight"/>
+        <attr format="dimension" name="itemRadius"/>
+        <attr format="dimension" name="itemSpacing"/>
+        <attr format="dimension" name="lineWidth"/>
+        <attr format="reference|color" name="lineColor"/>
+        <attr name="lineGradientStartColor" format="color" />
+        <attr name="lineGradientEndColor" format="color" />
+        <attr format="enum" name="viewType">
+            <enum name="rectangle" value="0"/>
+            <enum name="line" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="android:cursorVisible"/>
+        <attr format="dimension" name="cursorWidthPin"/>
+        <attr format="reference|color" name="cursorColorPin"/>
+        <attr name="android:itemBackground"/>
+        <attr format="boolean" name="hideLineWhenFilled"/>
+    </declare-styleable>
+    <declare-styleable name="PinViewTheme">
+        <attr format="reference" name="pinViewStyle"/>
+    </declare-styleable>
+
+</resources>

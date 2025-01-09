@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_3sdp">
+
+    <RelativeLayout
+        android:id="@+id/sendingTextMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/outgoing_layout_bubble"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_100sdp"
+            android:background="@drawable/bg_send_message"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_12sdp">
+
+            <LinearLayout
+                android:id="@+id/layout_forwarded_sent_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/iv_file_play_pause"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_forwarded"
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:alpha="0.6"
+                    android:src="@drawable/ic_reply" />
+
+                <TextView
+                    android:id="@+id/tv_forwarded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+
+                    android:fontFamily="@font/montserrat_medium"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:text="@string/forwarded"
+                    android:textColor="@color/black_variation_50"
+                    android:textSize="@dimen/_9ssp"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_forwarded"
+                    app:layout_constraintStart_toEndOf="@id/iv_forwarded"
+                    app:layout_constraintTop_toTopOf="@id/iv_forwarded"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time_and_tick_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|right"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/seekBar_audio"
+                app:layout_constraintTop_toBottomOf="@id/seekBar_audio">
+
+                <TextView
+                    android:id="@+id/textview_time_sent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:lineSpacingExtra="@dimen/_4ssp"
+                    android:text="01:23"
+                    android:textColor="@color/deep_black"
+                    android:textSize="@dimen/_9ssp"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/text_sendTick"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="bottom"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/ic_tick"
+                    android:visibility="visible" />
+
+                <ImageView
+
+                    android:id="@+id/audio_disappear_sent"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/ic_disappear_msg"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_audio_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:alpha="0.5"
+                android:fontFamily="@font/montserrat_medium"
+                android:lineSpacingExtra="@dimen/_4ssp"
+                android:text="12:56 am"
+                android:textColor="@color/deep_black"
+                android:textSize="@dimen/_9ssp"
+                app:layout_constraintBottom_toBottomOf="@id/time_and_tick_layout"
+                app:layout_constraintStart_toStartOf="@id/seekBar_audio"
+                app:layout_constraintTop_toTopOf="@id/time_and_tick_layout"
+                tools:ignore="SpUsage" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/_11sdp"
+                android:alpha="0.1"
+                android:background="@color/deep_black"
+                android:backgroundTint="@color/deep_black"
+                android:clickable="false"
+                android:elevation="0dp"
+                android:focusable="false"
+                app:cardCornerRadius="@dimen/_30sdp"
+                app:cardElevation="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout_forwarded_sent_audio">
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_margin="@dimen/_7sdp"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </androidx.cardview.widget.CardView>
+
+
+            <ImageView
+                android:id="@+id/iv_file_play_pause"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:alpha="0.5"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="center"
+                android:src="@drawable/ic_play"
+                app:layout_constraintBottom_toBottomOf="@id/cv_file"
+                app:layout_constraintEnd_toEndOf="@id/cv_file"
+                app:layout_constraintStart_toStartOf="@id/cv_file"
+                app:layout_constraintTop_toTopOf="@id/cv_file"
+                app:tint="@color/top_black" />
+
+
+            <SeekBar
+                android:id="@+id/seekBar_audio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/deep_black_50"
+                android:progressBackgroundTint="@color/deep_black_50"
+                android:progressTint="@color/deep_black"
+                android:secondaryProgressTint="@color/deep_black"
+                android:thumbTint="@color/deep_black"
+                app:layout_constraintBottom_toBottomOf="@id/cv_file"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/cv_file"
+                app:layout_constraintTop_toTopOf="@id/cv_file" />
+            <!-- Add More Components for different views components from here
+                  and set constraints accordingly -->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

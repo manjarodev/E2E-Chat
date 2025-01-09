@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat_settings"
+    app:startDestination="@id/ImportExportFragment">
+
+    <fragment
+        android:id="@+id/ImportExportFragment"
+        android:name="com.devbeans.io.chat.fragments.ImportExportFragment"
+        tools:layout="@layout/fragment_import_export">
+
+
+
+        <action
+            android:id="@+id/action_ImportExportFragment_to_ExportFragment"
+            app:destination="@id/ExportFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top" />
+        <action
+            android:id="@+id/action_ImportExportFragment_to_ImportListFragment"
+            app:destination="@id/ImportListFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top"
+            />
+        <action
+            android:id="@+id/action_ImportExportFragment_to_ImportFragment"
+            app:destination="@id/ImportFragment"
+            app:enterAnim="@anim/slide_from_top"
+            app:exitAnim="@anim/slide_to_bottom"
+            app:popEnterAnim="@anim/slide_from_bottom"
+            app:popExitAnim="@anim/slide_to_top"
+            />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ImportFragment"
+        android:name="com.devbeans.io.chat.fragments.ImportFragment"
+        tools:layout="@layout/import_fragment">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/ExportFragment"
+        android:name="com.devbeans.io.chat.fragments.ExportFragment"
+        tools:layout="@layout/export_fragment">
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ImportListFragment"
+        android:name="com.devbeans.io.chat.fragments.ImportListFragment"
+        tools:layout="@layout/import_list_fragment">
+
+
+        <action
+            android:id="@+id/action_ImportListFragment_to_ImportFragment"
+            app:destination="@id/ImportFragment" />
+    </fragment>
+
+
+</navigation>

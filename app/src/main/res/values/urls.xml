@@ -1,0 +1,112 @@
+<resources>
+
+    //Development server links
+
+    <!--    <string name="environment">integration</string>-->
+    <!--            <string name="development">https://int-chatapp.devbeans.io/</string>-->
+    <!--            <string name="web_socket_base_url">ws://192.168.102.19:7071/?userChatId=</string>-->
+    <!--            <string name="uploads">https://int-chatapp.devbeans.io/media/serve_media?file_name=</string>-->
+    <!--            <string name="base_uploads">https://int-chatapp.devbeans.io</string>-->
+    <!--            <string name="MQTT_BROKER">tcp://192.168.102.19:1883</string>-->
+    <!--            <string name="kds">http://192.168.102.19:3016/</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+
+    <!--    <string name="environment">test</string>-->
+    <!--    <string name="development">http://192.168.102.19:5012/</string>-->
+    <!--    <string name="web_socket_base_url">ws://192.168.102.19:7074/?userChatId=</string>-->
+    <!--    <string name="uploads">http://192.168.102.19:5012/media/serve_media?file_name=</string>-->
+    <!--    <string name="base_uploads">http://192.168.102.19:5012</string>-->
+    <!--    <string name="MQTT_BROKER">tcp://117.20.29.248:1883</string>-->
+    <!--    <string name="kds">http://192.168.102.19:5013/</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+    <!--        <string name="environment">production</string>-->
+    <!--        <string name="development">http://117.20.29.248:3001/</string>-->
+    <!--        <string name="web_socket_base_url">ws://117.20.29.248:7071/?userChatId=</string>-->
+    <!--        <string name="uploads">http://117.20.29.248:3001/media/serve_media?file_name=</string>-->
+    <!--        <string name="base_uploads">http://117.20.29.248:3001</string>-->
+    <!--        <string name="MQTT_BROKER">tcp://117.20.29.248:1883</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+    //local server links
+<!--    <string name="environment">local</string>-->
+<!--    <string name="development">http://192.168.101.148:3001/</string>-->
+<!--    <string name="web_socket_base_url">ws://192.168.101.148:7071/?userChatId=</string>-->
+<!--    <string name="uploads">http://192.168.101.148:3001/media/serve_media?file_name=</string>-->
+<!--    <string name="base_uploads">http://192.168.101.148:3001</string>-->
+<!--    <string name="kds">http://192.168.101.148:3002/</string>-->
+<!--    <string name="kds_pingg">https://int-kds.devbeans.io/</string>-->
+<!--    <string name="ping_development">int-chatapp.devbeans.io</string>-->
+<!--    <string name="ping_kds">int-kds.devbeans.io</string>-->
+<!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+<!--    <integer name="mqqt_port">8883</integer>-->
+
+    <!--    //local my server links-->
+    <!--    <string name="environment">production</string>-->
+    <!--    <string name="development">http://192.168.101.122:4800/</string>-->
+    <!--    <string name="web_socket_base_url">ws://192.168.101.122:7071/?userChatId=</string>-->
+    <!--    <string name="uploads">http://192.168.101.122:4800/media/serve_media?file_name=</string>-->
+    <!--    <string name="base_uploads">http://192.168.101.122:4800</string>-->
+    <!--    <string name="MQTT_BROKER">tcp://192.168.101.122:1883</string>-->
+    <!--    <string name="kds">http://192.168.101.122:4700/</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+    //Staging server links
+    <!--        <string name="environment">Staging</string>-->
+    <!--        <string name="development">https://stage-chatapp.devbeans.io/</string>-->
+    <!--        <string name="web_socket_base_url">wss://stage-websocket.devbeans.io/ws?userChatId=</string>-->
+    <!--        <string name="uploads">https://stage-chatapp.devbeans.io/media/serve_media?file_name=</string>-->
+    <!--        <string name="base_uploads">https://stage-chatapp.devbeans.io</string>-->
+    <!--        <string name="MQTT_BROKER">tcp://192.168.102.19:1883</string>-->
+    <!--        <string name="kds">https://stage-kds.devbeans.io/</string>-->
+    <!--    <string name="ping_kds">stage-chatapp.devbeans.io</string>-->
+    <!--    <string name="ping_development">stage-kds.devbeans.io</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+
+    <!--    <string name="development">http://192.168.101.122:4800/</string>-->
+    <!--    <string name="web_socket_base_url">ws://192.168.101.122:7071/?userChatId=</string>-->
+    <!--    <string name="uploads">http://192.168.101.122:4800/media/serve_media?file_name=</string>-->
+    <!--    <string name="base_uploads">http://192.168.101.122:4800</string>-->
+    <!--    <string name="MQTT_BROKER">tcp://192.168.101.148:1883</string>-->
+    <!--    <string name="kds">http://192.168.101.122:4700/</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+    //Production Live server links
+    <!--    <string name="environment">production</string>-->
+    <!--        <string name="development">http://192.168.102.19:3003/</string>-->
+    <!--        <string name="web_socket_base_url">ws://192.168.102.19:7073/?userChatId=</string>-->
+    <!--        <string name="uploads">http://192.168.102.19:3003/media/serve_media?file_name=</string>-->
+    <!--        <string name="base_uploads">http://192.168.102.19:3003</string>-->
+    <!--        <string name="MQTT_BROKER">tcp://192.168.102.19:1883</string>-->
+    <!--    <string name="kds">http://192.168.102.19:3018/</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+
+    <!--    <string name="environment">production</string>-->
+    <!--    <string name="development">http://117.20.29.248:3003/</string>-->
+    <!--    <string name="web_socket_base_url">ws://117.20.29.248:7073/?userChatId=</string>-->
+    <!--    <string name="uploads">http://117.20.29.248:3003/media/serve_media?file_name=</string>-->
+    <!--    <string name="base_uploads">http://117.20.29.248:3003</string>-->
+    <!--    <string name="MQTT_BROKER">tcp://117.20.29.248:1883</string>-->
+    <!--    <string name="kds">http://117.20.29.248:3018/</string>-->
+    <!--    <string name="MQTT_BROKER">192.168.102.19</string>-->
+    <!--    <integer name="mqqt_port">8883</integer>-->
+
+
+    //Version info
+    <string name="version">Version 1.1.0</string>
+
+
+    //Production Version info
+    <!--    <string name="version">Version 1.1.0</string>-->
+
+</resources>

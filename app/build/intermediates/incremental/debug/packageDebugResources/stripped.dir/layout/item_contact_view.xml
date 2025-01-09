@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/item_contact_view_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/tv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_14sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:fontFamily="@font/astronomus_regular"
+            android:letterSpacing="0.01"
+            android:text="@string/letter"
+            android:textColor="@color/gray_variant"
+            android:textSize="@dimen/_13ssp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/iv_contact"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_contact"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/ic_avatar_1"
+            app:civ_border_width="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/astronomus_regular"
+            android:gravity="start"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="0dp"
+            android:textAllCaps="true"
+            android:maxLines="1"
+            android:text="@string/chat_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toTopOf="@id/tv_contact_id"
+            app:layout_constraintEnd_toStartOf="@id/tv_added_by_qr"
+            app:layout_constraintStart_toEndOf="@id/iv_contact"
+            app:layout_constraintTop_toTopOf="@id/iv_contact" />
+
+        <TextView
+            android:id="@+id/tv_contact_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/astronomus_regular"
+            android:gravity="start"
+            android:letterSpacing="-0.01"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:text="@string/userid"
+            android:textColor="@color/gray_variant_40"
+            android:textSize="@dimen/_9ssp"
+            app:layout_constraintBottom_toBottomOf="@id/iv_contact"
+            app:layout_constraintEnd_toStartOf="@id/tv_added_by_qr"
+            app:layout_constraintStart_toStartOf="@id/tv_contact_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_contact_name" />
+
+        <TextView
+            android:id="@+id/tv_added_by_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:background="@drawable/bg_added_qr"
+            android:drawablePadding="@dimen/_5sdp"
+            android:fontFamily="@font/astronomus_regular"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/_4sdp"
+            android:paddingVertical="@dimen/_2sdp"
+            android:text="@string/added_by_qr"
+            android:textColor="@color/gray_variant_40"
+            android:textSize="@dimen/_9ssp"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/tv_contact_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_contact_name"
+            app:drawableEndCompat="@drawable/ic_qr_code_sec" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

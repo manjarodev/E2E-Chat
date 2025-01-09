@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_4sdp">
+
+    <LinearLayout
+        android:id="@+id/lv_group_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:background="@drawable/bg_group_settings"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_group_setting_title"
+            style="@style/Chat.Text.Group.Text.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/group_settings" />
+
+        <LinearLayout
+            android:id="@+id/lv_media_restrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_5sdp"
+                android:layout_height="@dimen/_5sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:visibility="gone"
+                android:src="@drawable/ic_bullet" />
+
+            <TextView
+                android:id="@+id/tv_media_restrict"
+                style="@style/Chat.Text.Group.Text.Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/media_restrictions_enabled" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_tap_to_reveal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_5sdp"
+                android:layout_height="@dimen/_5sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:visibility="gone"
+                android:src="@drawable/ic_bullet" />
+
+            <TextView
+                android:id="@+id/tv_tap_to_reveal"
+                style="@style/Chat.Text.Group.Text.Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/tap_to_reveal_settings_enabled" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_group_disappearing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_5sdp"
+                android:layout_height="@dimen/_5sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:visibility="gone"
+                android:src="@drawable/ic_bullet" />
+
+            <TextView
+                android:id="@+id/tv_group_disappearing"
+                style="@style/Chat.Text.Group.Text.Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/astronomus_regular"
+                android:gravity="start"
+                android:letterSpacing="-0.01"
+                android:maxLines="2"
+                android:minLines="2"
+                android:text="@string/disappearing_settings_are_enabled_and_all_messages_will_disappear_after_7_days"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

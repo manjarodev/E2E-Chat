@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_window_fill_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lv_option_off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_option_off"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/off" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_option_30_seconds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginVertical="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_option_30_seconds"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_30_seconds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_option_5_minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_option_5_minutes"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_5_minutes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_option_1_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_option_1_hour"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_1_hour" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_option_1_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_option_1_day"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_1_day" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_option_1_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected">
+
+            <TextView
+                android:id="@+id/tv_option_1_week"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/_1_week" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_option_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/disappearing_option"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/bg_disappearing_option_unselected"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_option_custom"
+                style="@style/Chat.Text.Disappearing.Option"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="start|center_vertical"
+                android:padding="@dimen/_13sdp"
+                android:text="@string/ExpireTimerSettingsFragment__custom_time" />
+
+            <TextView
+                android:id="@+id/tv_option_custom_view"
+                style="@style/Chat.Text.Disappearing.Option_custom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="0.5"
+                android:gravity="end|center_vertical"
+                android:text="@string/_5_minutes" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
